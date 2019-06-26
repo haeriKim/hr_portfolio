@@ -1,0 +1,210 @@
+/*팝업창*/
+@media all and (min-width:320px) and (max-width:768px){
+.popup_area{
+  position:relative;
+  text-align:center;
+  padding: 7px 4%;
+}
+.popup_area .popup_box{
+  width:90%;
+  background:#192331;
+  color:#fff;
+  border-radius: 5px;
+  padding: 50px 1%;
+  font-size:80%;
+  text-align: center;
+  line-height: 1.5em;
+  position:absolute;
+  top:50%;
+
+}
+.popup_area .popup_box .popupbox_text .hour{
+  color:#30AFB8;
+  font-weight:600;
+  font-size: 14px;
+}
+.popup_area .popup_box .btn_area input{
+  margin-top:30px;
+  background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border: none;
+  color: #fff;
+  padding: 7px 0;
+  font-size: 13px;
+  width: 30%;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+/*메인팝업*/
+#full_content{
+    width: 95%;
+    background: #fff;
+    z-index: 9999;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    transform: translate(-50%,-50%);
+}
+#full_content .full_inner{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+#full_content .full_inner h2{
+    color: #30afb8;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 17px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #30afb8;
+    margin: 0 auto;
+}
+#full_content .full_inner p{
+    color: #333;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#full_content .full_inner p span.emphasis{
+    color: #30afb8;
+    font-weight: 600;
+}
+#full_content .full_inner b{
+    color:#30afb8;
+    font-size:12px;
+    font-weight:600;
+}
+#full_content .full_inner .full_scroll{
+  height:250px;
+  margin-top:10px;
+  padding:10px;
+  border:1px solid #30afb8;
+  border-radius:5px;
+  overflow-y:scroll;
+}
+#full_content .full_inner ul{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #30afb8;
+    border-radius: 5px;
+}
+#full_content .full_inner ul li{
+    color: #30afb8;
+    font-size: 12px;
+    background: url(../img/m_o_on.png) no-repeat 0px 3px / 15px;
+    padding-left: 21px;
+    margin-top: 4px;
+}
+#full_content .full_inner form{
+    color: #666;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#full_content .full_inner .close_btn{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 10px auto 30px auto;
+    padding: 5px 0;
+    color: #fff;
+    font-size: 13px;
+    background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+    border-radius: 5px;
+    height: 25px;
+    line-height: 25px;
+}
+#shadow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+/*거래소 매수도매도 팝업*/
+.deal_check_table tr th{
+    border: 1px solid #06908c;
+    color: #fff;
+    font-size: 13px;
+    background: #30afb8;
+    height: 30px;
+}
+.deal_check_table tr td{
+    color: #333;
+    font-size: 13px;
+    border: 1px solid #06908c;
+    text-align: left;
+    padding-left: 10px;
+}
+/*회원가입시 이메일 인증 팝업*/
+#full_content .popupbox_text .send_mail_text{
+    line-height: 1.5;
+}
+#full_content .popupbox_text .readonly{
+    color: #30afb8;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#full_content .popupbox_text .code{
+    width: 95%;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.6);
+    font-size: 12px;
+    padding: 3px 5px;
+}
+#full_content .popupbox_text .wrong_info{
+    color: #f00;
+}
+#full_content .popupbox_text .warning_icon{
+    vertical-align: -3px;
+    margin-right: 3px;
+}
+#full_content .popupbox_text .re_send{
+    border-radius: 5px;
+    border: 1px solid #30afb8;
+    padding: 10px 20px;
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: center;
+}
+#full_content .popupbox_text .re_send p{
+    color: #30afb8;
+}
+#full_content .popupbox_text .re_send .re_sendBtn{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px 0;
+    color: #30afb8;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #30afb8;
+    background: none;
+}
+#full_content .btn_area{
+    text-align: center;
+    margin: 10px 0;
+}
+#full_content .btn_area input[type='button']{
+    padding: 5px 18px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    background: rgba(0,0,0,.5);
+}
+#full_content .btn_area input[type='submit']{
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 18px;
+    background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+    border-radius: 50px;
+    border: none;
+}
+}

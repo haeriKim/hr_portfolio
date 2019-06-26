@@ -1,0 +1,140 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  height: 100%;
+}
+/* 화면로딩시 깜박임 현상 제거 */
+html.no-js {
+  display: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  height: 100%;
+  letter-spacing: -0.5px;
+  color: #fff;
+  width: 100%;
+  background:#0F1926;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+table, tr, td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  outline: none;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="submit"], input[type="reset"], input[type="file"], textarea, input[type="button"], button {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  outline: none;
+}
+select::-ms-expand {
+    display: none;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("../img/arrow_down_white.png") no-repeat 95% center;
+  background-size: 7px;
+  padding-left: 2px;
+  padding-right: 15px;
+}
+
+input, textarea, select {
+  outline: none;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  a img {
+    border: none
+  }
+}
+
+/*레이블 skip*/
+.skip_label {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+  position: absolute;
+  left: -999px;
+}
+
+/*radio 스타일*/
+input[type='radio']{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    border: 0;
+}
+input[type="radio"] + label:before {
+    content: ' ';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -3px 5px 0 0;
+    vertical-align: middle;
+    background: url(../img/m_o_off.png) no-repeat;
+    vertical-align: -8px;
+}
+input[type="radio"]:checked + label:before {
+    background: url(../img/m_o_on.png) no-repeat;
+    vertical-align: -8px;
+}
+/*radio 네모스타일*/
+input.square[type='radio']{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    border: 0;
+}
+input.square[type="radio"] + label:before {
+    content: ' ';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -3px 5px 0 0;
+    vertical-align: middle;
+    background: url(../img/checkbox_off.png) no-repeat;
+    vertical-align: -8px;
+}
+input.square[type="radio"]:checked + label:before {
+    background: url(../img/checkbox_on.png) no-repeat;
+    vertical-align: -8px;
+}

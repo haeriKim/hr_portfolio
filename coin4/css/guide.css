@@ -1,0 +1,120 @@
+/*account,OTP 공통 css*/
+
+.guide_OTP_area .guide_OTP_inner .title_title{
+  margin:40px 0 30px 0;
+  color:#7AABDF;
+  font-weight:600;
+}
+.guide_OTP_area .guide_OTP_p{
+  margin-top:40px;
+  display:block;
+}
+.guide_OTP_area .guide_OTP_table{
+  text-align:left;
+  width:100%;
+  border:1px solid #7AABDF;
+}
+.guide_OTP_area .guide_OTP_table th{
+    padding: 15px 20px;
+    border-right: 2px solid #7AABDF;
+    background-color: #05080B;
+    font-size: 15px;
+    color: #7AABDF;
+    vertical-align: top;
+    width:200px;
+}
+.guide_OTP_area .guide_OTP_table td{
+    padding: 15px 20px;
+    height: 50px;
+    font-size: 15px;
+    vertical-align: top;
+}
+.guide_OTP_area .guide_OTP_table td p{
+    padding-bottom: 20px;
+}
+.guide_OTP_area .guide_OTP_table_text{
+  font-size:12px;
+  margin-top:20px;
+}
+.guide_OTP_area .guide_OTP_table_text p{
+  margin-top:5px;
+}
+.guide_OTP_area .guide_OTP_table_text .guide_pink{
+  color:#eaaf69;
+}
+.guide_OTP_area .guide_OTP_star{
+  font-weight:600;
+  display:inline-block;
+  padding-top:5px;
+}
+.guide_OTP_area .ID_card{
+  margin-left:10px;
+  overflow:hidden;
+}
+.guide_OTP_area .ID_card img{
+  float:left;
+  width:350px;
+}
+.guide_OTP_area .ID_card .ID_card_text{
+  float:left;
+  margin-left:20px;
+  width:500px;
+}
+.guide_OTP_area .ID_card .ID_card_text p{
+  font-size:12px;
+}
+.guide_OTP_area .ID_card .ID_card_pink{
+  color:#eaaf69;
+}
+.guide_OTP_area .guide_OTP_text{
+  font-size:12px;
+}
+.guide_OTP_area .guide_OTP_yeobak{
+  margin-bottom:100px;
+}
+@media all and (min-width:320px) and (max-width:1024px){
+  .guide_OTP_area .guide_OTP_p {
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .guide_OTP_area .guide_OTP_inner .title_title {
+    margin: 25px 0 15px;
+    font-size: 14px;
+  }
+  .guide_OTP_area .guide_OTP_table th,.guide_OTP_area .guide_OTP_table td {
+    padding: 10px;
+    font-size: 13px;
+  }
+  .guide_OTP_area .guide_OTP_star {
+    font-size: 13px;
+  }
+  .guide_OTP_area .ID_card {
+    margin-left: 0;
+  }
+  .guide_OTP_area .ID_card img {
+    width: 100%;
+    float: none;
+  }
+  .guide_OTP_area .ID_card .ID_card_text {
+    margin-left: 0;
+    float: none;
+    width: 100%;
+  }
+}
+@media all and (min-width:1025px) and (max-width:1599px){
+  .guide_OTP_area .guide_OTP_p{
+    font-size:12px;
+  }
+  .guide_OTP_area .guide_OTP_table th{
+    font-size:12px;
+  }
+  .guide_OTP_area .guide_OTP_table td{
+    font-size:12px;
+  }
+  .guide_OTP_area .guide_OTP_star{
+    font-size:12px;
+  }
+  .guide_OTP_area .ID_card .ID_card_text{
+    margin-top:30px;
+  }
+}

@@ -1,0 +1,89 @@
+@media all and (min-width:320px) and (max-width:768px){
+    .certification_03_wrap{
+        font-size: 14px;
+        margin-top: 60px;
+        padding: 7px 15px;
+    }
+    .certification_03_table tbody tr{
+        padding-bottom: 20px;
+        display: block;
+    }
+    .certification_03_table tbody th{
+        font-size: 13px;
+        width: 100%;
+        display: block;
+        text-align: left;
+        font-weight: 500;
+    }
+    .certification_03_table tbody td{
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .certification_03_table tbody .complete_certifi{
+        border: none;
+        background: none;
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+        padding-bottom: 6px;
+        font-size: 13px;
+        text-align: left;
+        color: rgba(255,255,255,.6);
+        padding-left: 5px;
+    }
+    .certification_03_table tbody .phone_certification{
+        border: none;
+        color: #30AFB8;
+        border: 1px solid #30AFB8;
+        background: none;
+        font-size: 12px;
+        top: -6px;
+        right: 0;
+        padding: 5px;
+        border-radius: 50px;
+        position: absolute;
+        padding-bottom: 3px;
+    }
+    .certification_03_table tbody input[type='password'],
+    .certification_03_table tbody input[type='number']{
+        border: none;
+        background: none;
+        border-bottom: 1px solid rgba(255,255,255,.6);
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+        padding-bottom: 4px;
+        font-size: 13px;
+        text-align: left;
+        color: #fff;
+        padding-left: 5px;
+    }
+    .certification_03_table tbody input[type='number']{
+        -webkit-text-security:disc;
+    }
+    .certification_03_wrap .cancel_or_apply{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .certification_03_wrap .cancel_or_apply .cancel_btn{
+      color: #30AFB8;
+      border-radius: 50px;
+      border: 1px solid #30AFB8;
+      padding: 7px 7px;
+      width: 25%;
+      background: none;
+      font-size: 13px;
+    }
+    .certification_03_wrap .cancel_or_apply .agree_btn{
+      background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+      border: none;
+      color: #fff;
+      padding: 8px 0;
+      font-size: 13px;
+      width: 40%;
+      border-radius: 50px;
+      font-weight: 600;
+      margin-left: 5px;
+    }
+}

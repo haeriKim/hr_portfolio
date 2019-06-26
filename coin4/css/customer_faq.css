@@ -1,0 +1,112 @@
+body{
+    overflow-y: scroll;
+}
+.faq_area{
+    margin: 0 auto 120px auto;
+}
+.faq_area .faq_list .go_link{
+    color: #7AABDF;
+    text-decoration: underline;
+}
+.faq_area .faq_list .no_search{
+  text-align:center;
+  padding: 149px 0;
+  display:none;
+}
+.faq_area .faq_list .search_val {
+  color: #EAAF69;
+}
+.faq_area .faq_list .search_val::before,.faq_area .faq_list .search_val::after {
+  content: "'";
+  color: #EAAF69;
+}
+.faq_area .faq_list h5{
+    margin: 40px 0 30px 0;
+    color: #7AABDF;
+    font-weight: 600;
+    font-size: 16px;
+}
+.faq_area .faq_list ul{
+    border: none;
+    border-bottom: none;
+    border-radius: 5px;
+}
+.faq_area .faq_list ul li{
+    margin-bottom: 20px;
+}
+.faq_area .faq_list ul li .question{
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 2px solid #7AABDF;
+    background: #05080B url(../img/arrow_off.png) no-repeat 98% 10px / 20px 20px;
+    border-radius: 5px 5px 0 0;
+}
+.faq_area .faq_list ul li .on{
+    background: #05080B url(../img/arrow_on.png) no-repeat 98% 10px / 20px 20px;
+}
+
+.faq_area .faq_list ul li .question span{
+    color: #fff;
+    margin-left: 34px;
+    font-weight:500;
+}
+.faq_area .faq_list ul li .question img{
+    position: absolute;
+    top: 8px;
+}
+.faq_area .faq_list ul li .answer{
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid #999;
+    position: relative;
+}
+.faq_area .faq_list ul li .answer p{
+    padding-left: 30px;
+    color:#fff;
+    font-size: 14px;
+}
+.faq_area .faq_list ul li .answer img{
+    position: absolute;
+    top: 32%;
+    left: 11px;
+}
+
+@media all and (min-width:320px) and (max-width:1024px){
+  .faq_area .faq_list h5 {
+    margin: 25px 0 20px 0;
+    font-size: 13px;
+  }
+  .faq_area .faq_list ul li .question img {
+    width: 22px;
+    top:30%;
+  }
+  .faq_area .faq_list ul li .question span {
+    font-size: 12px;
+    width: 75%;
+    display: inline-block;
+    margin-left: 30px;
+  }
+  .faq_area .faq_list ul li .question {
+    background: #05080B url(../img/arrow_off.png) no-repeat 95% center / 15px 15px;
+  }
+  .faq_area .faq_list ul li .on{
+    background: #05080B url(../img/arrow_on.png) no-repeat 95% center / 15px 15px;
+  }
+  .faq_area .faq_list ul li .answer img {
+    width: 22px;
+  }
+  .faq_area .faq_list ul li .answer p {
+    font-size: 12px;
+    padding-left: 22px;
+  }
+}
+
+@media all and (min-width:1025px) and (max-width:1599px){
+  .faq_area .faq_list ul li .question span{
+    font-size:12px;
+  }
+  .faq_area .faq_list ul li .answer p{
+    font-size:12px;
+  }
+}

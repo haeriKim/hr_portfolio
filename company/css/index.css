@@ -1,0 +1,202 @@
+/*회사메인 css*/
+#wrap #container {
+  position: static;
+}
+#container .main_content{
+  height: inherit;
+  color:#fff;
+  background:url(../img/company_main.png) no-repeat 0 3%;
+  background-size:cover;
+}
+#container .main_content .main_text{
+  text-align:right;
+  padding:30px 50px;
+  font-family : "Nanum Gothic",sans-serif;
+}
+#container .main_content .main_text p{
+  font-size:30px;
+  font-weight:600;
+  margin-bottom:5px;
+  letter-spacing: 2px;
+}
+#container .main_content .main_text span{
+  font-size:15px;
+}
+#container .main_content .main_title{
+  position: absolute;
+  z-index: 999;
+  bottom: 55px;
+  left: 6%;
+  cursor: pointer;
+  display: none;
+}
+#container .main_content .main_title:hover{
+  opacity:0.6;
+}
+#container .main_content .main_title p {
+  font-size:75px;
+  line-height: 1.1em;
+  font-family : "Fira Sans",sans-serif;
+}
+#container .main_content .main_title .solution{
+  letter-spacing:3px;
+  text-indent: 0;
+  margin-bottom:5px;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+#container .main_content .main_title div{
+  font-size:15px;
+  text-align: right;
+}
+#container .main_content .map_area {
+  position: relative;
+  margin: -15% auto 0 auto;
+  width: 100%;
+}
+#container .main_content .map_area .map_img {
+  width: 88%;
+  margin: 0 7%;
+}
+#container .main_content .star{
+  position: absolute;
+}
+#container .main_content .map_area .star_01{
+  animation: star 4s infinite;
+  top: 35%;
+  left: 42%;
+}
+#container .main_content .map_area .star_02{
+  transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  animation: star 3s infinite ;
+  top: 54%;
+  left: 11%;
+}
+#container .main_content .map_area .star_03{
+  transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  animation: star 4s infinite ;
+  top: 38%;
+  right: 21%;
+}
+#container .main_content .map_area .star_04{
+  transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  animation: star 3s infinite ;
+  top: 50%;
+  left: 30%;
+}
+#container .main_content .map_area .star_05{
+  transform: rotate(44deg);
+  -ms-transform: rotate(44deg);
+  -webkit-transform: rotate(44deg);
+  animation: star 4s infinite ;
+  top: 77%;
+  left: 57%;
+}
+#container .main_content .map_area .star_06{
+  transform: rotate(63deg);
+  -ms-transform: rotate(63deg);
+  -webkit-transform: rotate(63deg);
+  animation: star 3s infinite ;
+  top: 66%;
+  right: 16%;
+}
+#container .main_content .human .star_07{
+  transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -webkit-transform: rotate(50deg);
+  animation: star 3s infinite ;
+  top: -31px;
+  left: -38px;
+}
+@keyframes star{
+  0%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0.3;
+  }
+  100%{
+      opacity: 1;
+  }
+}
+#app_wrap{
+  display:none;
+}
+@media all and (min-width:320px) and (max-width:768px){
+  #wrap{
+    display:none;
+  }
+  @keyframes backMover{
+      0%{
+          background-position: 30% 0;
+      }
+      50%{
+          background-position: 85% 0;
+      }
+      100%{
+          background-position: 30% 0;
+      }
+  }
+  #app_wrap{
+    display:block;
+    background:url(../img/company_main0.png) no-repeat;
+    background-size: 250% 100%;
+    height:100%;
+    animation-name: backMover;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-position: 0 0;
+  }
+  .app_main_fence{
+    display:none;
+  }
+  #app_container .app_main_content{
+    color:#fff;
+  }
+  #app_container .app_main_content .app_main_text{
+    text-align:center;
+    padding:15%;
+
+  }
+  #app_container .app_main_content .app_main_text p{
+    font-size:15px;
+  }
+  #app_container .app_main_content .app_main_text span{
+    font-size:85%;
+    opacity:0.5;
+  }
+  #app_container .app_main_content .app_main_fence{
+    width:100%;
+    position: absolute;
+    text-align: center;
+    margin:0 auto;
+    top:70%;
+  }
+  #app_container .app_main_content .app_main_title{
+    cursor:pointer;
+    text-align: center;
+    width:100%;
+  }
+  #app_container .app_main_content .app_main_title img{
+    width:23px;
+  }
+  #app_container .app_main_content .app_main_title:hover{
+    opacity:0.9;
+  }
+  #app_container .app_main_content .app_main_title p{
+    font-size:25px;
+    font-weight:600;
+    padding-bottom:5px;
+  }
+  #app_container .app_main_content .app_main_story{
+    font-size:12px;
+  }
+}

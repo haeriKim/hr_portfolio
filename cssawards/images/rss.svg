@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>rss</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="rss" fill-rule="nonzero" fill="#080808">
+            <ellipse id="circle" cx="2.8" cy="16.94" rx="2.8" ry="2.66"></ellipse>
+            <path d="M0,10.36 C2.66,10.36 5.04,11.34 7,13.02 C8.82,14.84 9.8,17.08 9.8,19.6 L13.86,19.6 C13.86,12.46 7.7,6.72 0,6.72 L0,10.36 Z" id="Shape"></path>
+            <path d="M0,3.78 C9.38,3.78 16.94,10.92 16.94,19.6 L21,19.6 C21,8.82 11.62,0 0,0 L0,3.78 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

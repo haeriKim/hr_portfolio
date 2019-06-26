@@ -1,0 +1,257 @@
+/*left*/
+
+.cer_center .center_bottom {
+  overflow: hidden;
+}
+.cer_center .center_bottom .cText_left {
+  float: left;
+  border-right: 1px solid #7AABDF;
+  width: 51%;
+  margin-right: 3%;
+}
+.cer_center .center_bottom .cText_left .current_level {
+  margin-bottom: 100px;
+}
+.cer_center .center_bottom .cText_left .current_level b {
+  color: #fff;
+  font-size: 20px;
+}
+.cer_center .center_bottom .cText_left .current_level b .level_color {
+  color: #7AABDF;
+}
+.cer_center .center_bottom .cText_left strong {
+  color: #7AABDF;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.cer_center .center_bottom .cText_left p {
+  font-size: 13px;
+  color: #666;
+  font-weight: 600;
+  line-height: 28px;
+}
+.cer_center .center_bottom .cText_left .need_more_level {
+
+}
+.cer_center .center_bottom .cText_left .max_level {
+    display: none;
+}
+.cer_center .center_bottom .cText_left p.important {
+  color: #fff;
+}
+.cer_center .center_bottom .cText_left p.important .underline{
+    border-bottom: 1px solid #7AABDF;
+    color: #7AABDF;
+}
+
+.cer_center .center_bottom .cText_right {
+  float: left;
+  width: 45%;
+  padding: 10px 0;
+}
+.cer_center .center_bottom .cText_right li + li {
+  margin-top: 30px;
+}
+.cer_center .center_bottom .cText_right li img {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.cer_center .center_bottom .cText_right li p {
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+}
+.cer_center .center_bottom .cText_right li p span {
+  color: #7AABDF;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.cer_center .center_bottom .cText_right li p span.recommend {
+  color: #eaaf69;
+}
+.cer_center .center_bottom .cText_right li .c_btn {
+  display: inline-block;
+  width: 100px;
+  padding: 7px 0;
+  box-sizing: border-box;
+  color: #7AABDF;
+  background:none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  float: right;
+  vertical-align: middle;
+  border:1px solid #7AABDF;
+}
+.cer_center .center_bottom .cText_right li .go_cer:hover {
+  background-color:#7AABDF;
+  color:#0E141C;
+}
+.cer_center .center_bottom .cText_right li span.c_complete {
+  cursor: default;
+  color:#444;
+  background-color: #05080B;
+  border:none;
+}
+.cer_center .center_bottom .cText_right li span.disable {
+  background-color: #dfdfdf;
+}
+#malpungsun{
+  color:#fff;
+  background-color:#eaaf69;
+  font-size:13px;
+  font-weight: bold;
+  position: absolute;
+  /* display:none; */
+  top:720px;
+  left:750px;
+  width: 300px;
+  text-align: center;
+  padding:10px 0;
+  line-height: 1.5;
+  border-radius: 5px;
+}
+#malpungsun::after{
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 83%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  transparent transparent #eaaf69 transparent;
+}
+.user_level{
+    display: none;
+}
+/*1단계까지 인증했을때*/
+.cer_center .cer_level .lv2_on,
+.cer_center .cer_level .lv3_on,
+.cer_center .cer_level .lv4_on,
+.cer_center .cer_level .lv5_on,
+.cer_center .center_bottom .cText_right .cer_lv_02 .c_complete,
+.cer_center .center_bottom .cText_right .cer_lv_03 .c_complete,
+.cer_center .center_bottom .cText_right .cer_lv_03 .go_cer,
+.cer_center .center_bottom .cText_right .cer_lv_04 .c_complete,
+.cer_center .center_bottom .cText_right .cer_lv_04 .go_cer,
+.cer_center .center_bottom .cText_right .cer_lv_05 .c_complete,
+.cer_center .center_bottom .cText_right .cer_lv_05 .go_cer,
+.cer_center .cer_level li strong.navy_title{
+    display: none;
+}
+.lv_01{
+    display: inline-block;
+}
+
+/*2단계까지 인증했을때*/
+/* .cer_center .cer_level .lv2_off,
+.cer_center .cer_level .lv3_on,
+.cer_center .cer_level .lv4_on,
+.cer_center .cer_level .lv5_on,
+.cer_center .center_bottom .cText_right .cer_lv_02 .go_cer,
+.cer_center .center_bottom .cText_right .cer_lv_03 .c_complete,
+.cer_center .center_bottom .cText_right .cer_lv_04 .c_complete,
+.cer_center .center_bottom .cText_right .cer_lv_04 .go_cer,
+.cer_center .center_bottom .cText_right .cer_lv_05 .c_complete,
+.cer_center .center_bottom .cText_right .cer_lv_05 .go_cer{
+    display: none;
+}
+.lv_02{
+    display: inline-block;
+} */
+
+/*3단계까지 인증했을때*/
+/* .cer_center .cer_level .lv2_off,
+.cer_center .cer_level .lv3_off,
+.cer_center .cer_level .lv4_on,
+.cer_center .cer_level .lv5_on,
+.cer_center .center_bottom .cText_right .cer_lv_02 .go_cer,
+.cer_center .center_bottom .cText_right .cer_lv_03 .go_cer,
+.cer_center .center_bottom .cText_right .cer_lv_04 .c_complete,
+.cer_center .center_bottom .cText_right .cer_lv_05 .c_complete,
+.cer_center .center_bottom .cText_right .cer_lv_05 .go_cer
+{
+    display: none;
+}
+.lv_03{
+    display: inline-block;
+} */
+
+/*4단계까지 인증했을때*/
+/* .cer_center .cer_level .lv2_off,
+.cer_center .cer_level .lv3_off,
+.cer_center .cer_level .lv4_off,
+.cer_center .cer_level .lv5_on,
+.cer_center .center_bottom .cText_right .cer_lv_02 .go_cer,
+.cer_center .center_bottom .cText_right .cer_lv_03 .go_cer,
+.cer_center .center_bottom .cText_right .cer_lv_04 .go_cer,
+.cer_center .center_bottom .cText_right .cer_lv_05 .c_complete
+{
+    display: none;
+}
+.lv_04{
+    display: inline-block;
+} */
+
+/*5단계까지 인증했을때*/
+/* .cer_center .cer_level .lv2_off,
+.cer_center .cer_level .lv3_off,
+.cer_center .cer_level .lv4_off,
+.cer_center .cer_level .lv5_off,
+.cer_center .center_bottom .cText_right .cer_lv_02 .go_cer,
+.cer_center .center_bottom .cText_right .cer_lv_03 .go_cer,
+.cer_center .center_bottom .cText_right .cer_lv_04 .go_cer,
+.cer_center .center_bottom .cText_right .cer_lv_04 .go_cer,
+.cer_center .center_bottom .cText_right .cer_lv_05 .go_cer
+{
+    display: none;
+}
+.lv_05{
+    display: inline-block;
+} */
+#wrap{
+  display:block;
+}
+#app_wrap{
+  display:none;
+}
+@media all and (min-width:320px) and (max-width:1024px){
+  #app_wrap{
+    display:block;
+  }
+  #wrap{
+    display:none;
+  }
+}
+@media all and (min-width:1025px) and (max-width:1599px){
+
+  .cer_center .center_bottom .cText_left .current_level b{
+    font-size:15px;
+  }
+  .cer_center .center_bottom .cText_left strong{
+    font-size:12px;
+  }
+  .cer_center .center_bottom .cText_left p {
+    font-size:11px;
+  }
+  .cer_center .center_bottom .cText_right li img{
+    width:35px;
+  }
+  .cer_center .center_bottom .cText_right li p{
+    font-size:12px;
+  }
+  .cer_center .center_bottom .cText_right li .c_btn{
+    width:25%;
+    font-size:12px;
+  }
+  .cer_center .center_bottom .cText_left .current_level{
+    margin-bottom:30px;
+  }
+  .cer_center .center_bottom .cText_left{
+    margin-right:2%;
+    padding-right:1%;
+  }
+}

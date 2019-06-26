@@ -1,0 +1,630 @@
+.main_content {
+  width: 1300px;
+  margin: 10% auto;
+  height: auto;
+}
+/* slideul */
+
+.slide {
+  position: relative;
+  overflow: hidden;
+  width:1300px;
+  height:300px;
+}
+.panel {
+  width: 1300px;
+  position: relative;
+  height: 300px;
+}
+.a_link{
+  position:absolute;
+  font-size:22px;
+  top:73%;
+  left:33.5%;
+  padding-top:5px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width:432px;
+}
+.a_link2{
+  position: absolute;
+  font-size: 22px;
+  top: 63%;
+  left: 41.5%;
+  padding-top: 5px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 300px;
+}
+/* .panel:after {
+  content: "";
+  display: block;
+  clear: both;
+} */
+.panel>li {
+  width: 100%;
+  height: 300px;
+  /* float: left; */
+  /* background-repeat: no-repeat; */
+  /* background-size: 100%; */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* width: 20%;
+  height: 300px;
+  float: left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative; */
+}
+.panel .banner1 {
+  background:url(../img/banner01.png) no-repeat 0 0; background-size:100% 100%;
+}
+.panel .banner2 {
+  background:url(../img/banner00.png) no-repeat 0 0; background-size:100% 100%;
+}
+.panel .banner3 {
+  background:url(../img/banner02.png) no-repeat 0 0; background-size:100% 100%;
+}
+.panel .banner4 {
+  background:url(../img/banner03.png) no-repeat 0 0; background-size:100% 100%;
+}
+.panel .banner5 {
+  background:url(../img/banner04.png) no-repeat 0 0; background-size:100% 100%;
+}
+.panel .banner6 {
+  background:url(../img/banner05.png) no-repeat 0 0; background-size:100% 100%;
+}
+.panel .banner7 {
+  background:url(../img/banner06.png) no-repeat 0 0; background-size:100% 100%;
+}
+/* .dot:after {
+  content: "";
+  display: block;
+  clear: both;
+  aa
+} */
+.dot {
+  position: absolute;
+  left: 45.8%;
+  bottom: 5%;
+  transform: translateX(-10%);
+}
+.dot>li {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin-left: 10px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.dot>li.on {
+  background-color: #342f2f;
+}
+.prev1 img{
+  position:absolute;
+  top:120px;
+  left:20px;
+  width:30px;
+  cursor:pointer;
+}
+.next1 img{
+  position:absolute;
+  top:120px;
+  right:25px;
+  width:30px;
+  cursor:pointer;
+}
+
+/*코인현황*/
+
+.main_content .bitcoin_card_wrap   {
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+  height: 270px;
+  position: relative;
+}
+
+.main_content .bitcoin_card_wrap .bitcoin_card{
+    width: 1200px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    top:23px;
+
+}
+
+.main_content ul.bitcoin_card_inner{
+  width: 2000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main_content ul.bitcoin_card_inner li.card_li{
+    float: left;
+    width: 200px;
+    margin:0 20px;
+    padding-top:15px;
+    background-color: #05080B;
+}
+/*주가*/
+.main_content ul.bitcoin_card_inner li .card{
+  height:20px;
+  overflow: hidden;
+}
+/*주가테스트*/
+
+.main_content ul.bitcoin_card_inner li p{
+    color:#fff;
+    font-weight: 600;
+    margin-bottom:8px;
+}
+.main_content ul.bitcoin_card_inner li p img {
+  margin-right: 3px;
+}
+.main_content ul.bitcoin_card_inner li p:nth-child(3){
+    margin-bottom:0;
+}
+
+.main_content ul.bitcoin_card_inner li p.percent_up{
+    color:#f35531;
+}
+.main_content ul.bitcoin_card_inner li p.percent_down{
+    color:#017eff;
+}
+
+.main_content ul.bitcoin_card_inner .buy_sell_button{
+    height: 45px;
+    line-height: 45px;
+    margin-top:20px;
+}
+
+.main_content ul.bitcoin_card_inner .buy_sell_button a{
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    height: 45px;
+    font-weight: 600;
+}
+
+.main_content ul.bitcoin_card_inner .buy_sell_button .buy_button{
+    border-top:3px solid #f35531;
+    color:#f35531;
+    border-right:1px solid #0E141C;
+}
+
+.main_content ul.bitcoin_card_inner .buy_sell_button .buy_button:hover{
+    border-top:3px solid #f35531;
+    color:#0E141C;
+    background:#f35531;
+    border-right:none;
+}
+
+.main_content ul.bitcoin_card_inner .buy_sell_button .sell_button{
+    border-top:3px solid #017eff;
+    color:#017eff;
+}
+
+.main_content ul.bitcoin_card_inner .buy_sell_button .sell_button:hover{
+    border-top:3px solid #017eff;
+    color:#0E141C;
+    background:#017eff;
+}
+
+.main_content .bitcoin_card_btn .prev{
+    position: absolute;
+    top:110px;
+    left:20px;
+}
+
+.main_content .bitcoin_card_btn .next{
+    position: absolute;
+    top:110px;
+    right: 20px;
+}
+.main_content .bitcoin_card_btn a img{
+    width: 32px;
+    height: 32px;
+}
+.coin_ADA{
+    width: 31px;
+    height: 31px;
+}
+
+
+/*Notice*/
+
+.notice{
+  width: 733px;
+  height: 150px;
+  color: #fff;
+  border-radius: 5px;
+  float: left;
+  border: 1px solid #7AABDF;
+}
+.notice h4{
+    width: 710px;
+    color: #7AABDF;
+    border-radius: 5px 5px 0 0;
+    float: left;
+    padding: 10px 0 10px 23px;
+    border-bottom: 2px solid #7AABDF;
+}
+.notice h4 img{
+    padding-top: 3px;
+    width: 15px;
+    height: 15px;
+    float: right;
+    padding-right: 10px;
+}
+.notice ul{
+    width: 45%;
+    height: 80px;
+    padding: 10px 0 10px 0;
+    float: left;
+    margin-left: 22px;
+}
+.notice ul li{
+    float: left;
+    line-height: 25px;
+    width: 320px;
+    padding-left: 5px;
+    overflow: hidden;
+}
+.notice ul li:hover b{
+  text-decoration:underline;
+}
+.notice ul li a {
+    width: inherit;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+}
+.notice ul li b {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  float: left;
+  width: 80%;
+}
+.notice ul li b:before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 10px;
+    vertical-align: 2px;
+}
+.notice ul li span{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 20%;
+}
+
+/*use_guide*/
+
+.use_guide{
+  width: 560px;
+  height: 155px;
+  float:right;
+  padding: 25px 0;
+  box-sizing: border-box;
+}
+
+.use_guide ul{
+  overflow: hidden;
+}
+
+.use_guide ul p{
+  font-weight: 600;
+  margin-top: 10px;
+  color: #7AABDF;
+  border: 1px solid #7AABDF;
+  border-radius: 14px;
+  padding: 3px 0;
+}
+.use_guide ul p:hover {
+  background-color: #7AABDF;
+  color: #0E141C;
+}
+.use_guide li{
+  float: left;
+  margin-left: 20px;
+  text-align: center;
+  width: 20%;
+}
+#app_wrap{
+  display:none;
+}
+.prime_bt{
+  position:absolute;
+  bottom:-10%;
+  right:-8%;
+  width:10%;
+  cursor:pointer;
+
+  animation-name: floating;
+  -webkit-animation-name: floating;
+
+  animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@media all and (min-width:320px) and (max-width:1024px){
+      #wrap{
+        display:none;
+      }
+      #app_wrap{
+        display:block;
+      }
+      #app_container{
+          position: relative;
+      }
+      #full_content{
+        display:none;
+      }
+
+    #app_wrap .app_main_content{
+      text-align: center;
+      border: none;
+    }
+    /*app_main_step1*/
+    .app_main_content .app_main_step1{
+      text-align: center;
+      height:600px;
+      background:#0E141C;
+    }
+    .app_main_content .app_main_step1 span{
+      color:#fff;
+    }
+    .app_main_content .app_main_step1 .logo_area{
+      padding-top:60px;
+      padding-bottom:20px;
+    }
+    .app_main_content .app_main_step1 .phone_area{
+      position:relative;
+    }
+    .app_main_content .app_main_step1 .phone_area .phone_main img{
+
+    }
+    .app_main_content .app_main_step1 .phone_area .coin_img img{
+      position: absolute;
+      top:55%;
+      left:73%;
+      z-index: 10;
+      display: none;
+    }
+    .app_main_content .app_main_step1 .phone_area input[type=button]{
+      border: none;
+      position:absolute;
+      color: #0E141C;
+      padding: 12px 0;
+      width: 78%;
+      border-radius: 50px;
+      margin-left: 5px;
+      box-shadow: 1px 2px 10px #081321;
+      left: 10%;
+      font-size: 14px;
+    }
+    .app_main_content .app_main_step1 .phone_area input[type=button].android_down {
+      top: 72%;
+      background: #7AABDF;
+    }
+    .app_main_content .app_main_step1 .phone_area input[type=button].ios_down {
+      top:86%;
+      background: #7AABDF;
+    }
+    .app_main_content .app_main_step1 .phone_area input[type=button].app_exchange_bt {
+      top: 97%;
+      color: #eaaf69;
+      font-size: 13px;
+      box-shadow: none;
+      left: 55%;
+      background: none;
+      width: 30%;
+    }
+
+    /*app_main_step2*/
+
+    .app_slide {
+      position: relative;
+      overflow: hidden;
+      width:100%;
+    }
+    .app_panel {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        height: 0;
+        padding-bottom: 150%;
+    }
+    .app_panel>li {
+        left: 0;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        height: 100%;
+    }
+    .app_panel .app_banner1 {
+      background:url(../img/m_banner01.png) no-repeat 0 0;
+      background-size: 100% 100%;
+    }
+    .app_panel .app_banner2 {
+      background:url(../img/m_banner00.png) no-repeat 0 0;
+      background-size: 100% 100%;
+    }
+    .app_prime_bt{
+      width:58%;
+      height:5%;
+      position:absolute;
+      top:72%;
+      left:20%;
+    }
+    .app_panel .app_banner3 {
+      background:url(../img/m_banner02.png) no-repeat 0 0;
+      background-size: 100% 100%;
+    }
+    .app_panel .app_banner4 {
+      background:url(../img/m_banner03.png) no-repeat 0 0;
+      background-size: 100% 100%;
+    }
+    .app_panel .app_banner5 {
+      background:url(../img/m_banner04.png) no-repeat 0 0;
+      background-size: 100% 100%;
+    }
+    .app_panel .app_banner6 {
+      background:url(../img/m_banner05.png) no-repeat 0 0;
+      background-size: 100% 100%;
+    }
+    .app_dot:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .app_dot {
+      display:none;
+    }
+    .app_prev1 img{
+      position:absolute;
+      top:45%;
+      left:4%;
+      width:30px;
+      opacity: 0.5;
+    }
+    .app_next1 img{
+      position:absolute;
+      top:45%;
+      right:4%;
+      width:30px;
+      opacity: 0.5;
+    }
+
+    /*app_main_step3*/
+    .app_main_step3 img{
+      width:100%;
+    }
+    .submenu_mypage,
+    .submenu_security
+    {
+        display: none;
+    }
+}
+@media all and (min-width:1025px) and (max-width:1649px){
+    #wrpa .content_wrap{
+        margin-left: 10%;
+    }
+    .main_content,
+    .panel{
+        width: 100%;
+    }
+    .slide{
+        width: 87%;
+    }
+    .notice{
+        width: 50%;
+    }
+    .notice h4{
+        width: 96%;
+    }
+    .notice ul li b{
+        width: 60%;
+    }
+    .use_guide{
+        width: 40%;
+        float: left;
+    }
+    .use_guide img{
+        width: 70%;
+        max-width: 68px;
+    }
+    .main_content .bitcoin_card_wrap{
+      width:88%;
+    }
+    .main_content .bitcoin_card_wrap .bitcoin_card{
+      /* width:95%;
+      left: -8px; */
+      width:90%;
+    }
+    .main_content ul.bitcoin_card_inner{
+      /* width:235%; */
+      width:233%;
+      left:-5px;
+    }
+    .main_content ul.bitcoin_card_inner li.card_li{
+      width:7.1%;
+      font-size:80%;
+      margin:0 0.7%;
+    }
+    .main_content .bitcoin_card_btn .next{
+      /* right:0; */
+      right:3%;
+    }
+    .main_content .bitcoin_card_btn .prev{
+      /* left:-1.5%; */
+      left:1.5%;
+    }
+    .use_guide li{
+      margin-left:3.2%;
+    }
+    .use_guide ul p{
+      font-size:80%;
+    }
+    .notice ul li b{
+      font-size:12px;
+    }
+    .notice ul li span{
+      font-size:12px;
+    }
+    .notice ul{
+      margin-left:3%;
+    }
+}
+@media all and (min-width:1650px) and (max-width:1750px){
+  .prime_bt{
+    bottom:0;
+    right:0%;
+    width:7%;
+  }
+}
+.floating{
+	animation-duration: 1.5s;
+	-webkit-animation-duration: 1.5s;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);
+	}
+	50% {
+		transform: translateY(8%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);
+	}
+	50% {
+		-webkit-transform: translateY(8%);
+	}
+	100% {
+		-webkit-transform: translateY(0%);
+	}
+}

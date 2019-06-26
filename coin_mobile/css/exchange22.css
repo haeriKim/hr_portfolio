@@ -1,0 +1,349 @@
+/*거래소*/
+@media all and (min-width:320px) and (max-width:768px){
+#header_wrap .headerTop .back {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  background: url("../img/back.png") no-repeat 0 center;
+  background-size: 20px;
+  width: 30px;
+  border: none;
+}
+#header_wrap .headerTop .coinSelect_area #coin_select {
+  border: none;
+  color: #fff;
+  background-color: #0e141c;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  top: 13px;
+  left: 35px;
+}
+#deal_story {
+  overflow: hidden;
+  margin-top:160px;
+}
+/*deal_orgin_transaction*/
+#deal_orgin_transaction{
+    overflow-y:auto;
+    padding: 0;
+    float:left;
+    width:39.5%;
+    border-right: 1px solid rgba(255,255,255,.2);
+}
+#deal_orgin_transaction table{
+  font-size:13px;
+}
+#deal_orgin_transaction tbody tr{
+  height: 50px;
+}
+#deal_orgin_transaction tbody tr td {
+  padding: 0 5px;
+  border-bottom: 1px solid rgba(255,255,255,.2);
+  text-align: right;
+}
+#deal_orgin_transaction .money_up{
+    color:#f35531;
+}
+#deal_orgin_transaction .money_down{
+    color:#01a9ff;
+}
+
+/*deal_content*/
+
+#deal_content{
+  width:60%;
+  float:left;
+  overflow:hidden;
+  font-size:12px;
+}
+#deal_content .tabs{
+    width: 90%;
+    height: 40px;
+    margin: 20px auto 0 auto;
+}
+#deal_content .tabs span{
+    font-weight: 600;
+    border: 1px solid rgba(255,255,255,.3);
+    padding: 5px 0;
+    color: rgba(255,255,255,.3);
+    min-width: 36px;
+    display: block;
+    width: 99%;
+}
+#deal_content .tabs span.tabOn {
+  color: #30AFB8;
+  border: 1px solid #30AFB8;
+}
+
+/*tab1*/
+
+.tab_container .tab_content{
+  padding:6px 12px;
+}
+.tab_container .tab_content .buy_tab_content_row{
+  overflow:hidden;
+}
+.tab_container .tab_content .buy_tab_content_row dt{
+  margin:10px 0;
+  text-align:left;
+  opacity:0.6;
+}
+.tab_container .tab_content .buy_tab_content_row dd{
+  width:100%;
+  text-align:right;
+}
+.tab_container .tab_content .buy_tab_content_row .won{
+  text-align:right;
+}
+.tab_container .tab_content .buy_tab_content_row input{
+  float:left;
+  border:none;
+  border-bottom:1px solid rgba(255,255,255,.6);
+  background:none;
+  width:70%;
+  color:#fff;
+}
+.tab_container .tab_content .buy_tab_content_row .pl_ma {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+.tab_container .tab_content .buy_tab_content_row .pl_ma a{
+  border: 1px solid rgba(255,255,255,.6);
+  width: 33%;
+  height: 15px;
+  display: inline-block;
+  font-size: 13px;
+  text-align: center;
+  line-height: 12px;
+  color: rgba(255,255,255,.6);
+  margin-left: 3px;
+  font-weight: 600;
+}
+.tab_container .tab_content .buy_tab_content_row .amount_dropbox{
+  float: left;
+  text-align: center;
+  width: 30%;
+}
+.tab_container .tab_content .buy_tab_content_row select{
+  margin-left:3px;
+  color:rgba(255,255,255,.6);
+  background-color: #0F1926;
+  border: 1px solid rgba(255,255,255,.6);
+  background-size: 5px;
+}
+.tab_container .tab_content .buy_tab_content_row .buy_all_amount_title{
+  margin:10px 0;
+  font-weight: 500;
+}
+.tab_container .tab_content .buy_tab_content_row .buy_all_amount{
+  margin-bottom:10px;
+}
+.tab_container .tab_content .buy_tab_content_row .buy_all_amount p {
+  background-color: rgba(255,255,255,.1);
+  padding: 7px 5px;
+  font-size: 15px;
+  color: #30afb8;
+  font-weight: 600;
+}
+.tab_container .tab_content .buy_tab_content_row .buy_all_amount span{
+  margin-right:2px;
+}
+
+.tab_container .tab_content .mini_sub_info{
+  font-size:11px;
+  text-align: center;
+  color: rgba(255,255,255,.6);
+}
+.tab_container .tab_content .buy_tab_button{
+  margin:20px 0;
+}
+.tab_container .tab_content .buy_tab_button .reset_buy{
+  border:1px solid #f35531;
+  background:none;
+  color:#f35531;
+  padding:5px 0 ;
+  font-size:12px;
+  width: 30%;
+  border-radius: 50px;
+}
+.tab_container .tab_content .buy_tab_button .buy_big_btn{
+  border:1px solid #f35531;
+  background:#f35531;
+  color:#fff;
+  padding:5px 0;
+  font-size:12px;
+  width: 67%;
+  border-radius: 50px;
+}
+
+/*tab2*/
+
+.tab_container #tab2 .buy_tab_button .reset_buy{
+  border:1px solid #01a9ff;
+  color:#01a9ff;
+
+}
+.tab_container #tab2 .buy_tab_button .buy_big_btn{
+  border:1px solid #01a9ff;
+  background:#01a9ff;
+  color:#fff;
+}
+
+/*tab3*/
+.tab_container #tab3{
+    padding:15px 12px;
+    font-size:12px;
+}
+.tab_container #tab3 .not_yet_deal .not_yet_deal_title{
+    width: 100%;
+    overflow: hidden;
+}
+.tab_container #tab3 .not_yet_deal .not_yet_deal_title > p{
+    color: #999;
+    float: left;
+}
+.tab_container #tab3 .not_yet_deal .not_yet_deal_title > a{
+    color: #999;
+    float: right;
+}
+.tab_container #tab3 .not_yet_deal_content_wrap{
+}
+.tab_container #tab3 .not_yet_deal_content{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    border-top: 1px solid rgba(255,255,255,.2);
+    padding-top: 7px;
+}
+.tab_container #tab3 .apply_time{
+    float: right;
+    color: #999;
+}
+.tab_container #tab3 dl{
+    line-height: 1.8;
+}
+.tab_container #tab3 dl dt{
+    float: left;
+    width: 50%;
+}
+.tab_container #tab3 dl dd{
+    float: right;
+}
+.tab_container #tab3 .view_all{
+    color: #999;
+    width: 100%;
+    text-align: right;
+    display: block;
+    border-top: 1px solid rgba(255,255,255,.2);
+    margin-top: 10px;
+    padding-top: 5px;
+}
+.tab_container #tab3 .delete{
+    background: none;
+    border: 1px solid rgba(255,255,255,.3);
+    color: rgba(255,255,255,.3);
+    height: 30px;
+    margin-top: 35px;
+    border-radius: 50px;
+    width: 80%;
+    margin-left: 10%;
+}
+.tab_container #tab3 .delete_on{
+    background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+    color: #fff;
+    border: none;
+    height: 30px;
+    margin-top: 35px;
+    border-radius: 50px;
+    width: 80%;
+    display: none;
+    margin-left: 10%;
+}
+.tab_container #tab3 .apply_buy{
+    color: #f35531;
+}
+.tab_container #tab3 .apply_sell{
+    color: #01a9ff;
+}
+.none_box{
+  height:30px;
+}
+#full{
+  display:none;
+}
+#full_content .full_inner{
+  padding:20px 0;
+}
+#full_content .full_inner .full_inner_p{
+  margin:20px 0;
+}
+#full_content .full_inner .bt_area{
+  overflow:hidden;
+  text-align: center;
+  display:block;
+}
+#full_content .full_inner .bt_area .bt_area_box{
+  text-align: center;
+  display: inline-block;
+  width:60%;
+}
+#full_content .full_inner .bt_area .bt_area_box a{
+  margin-left:6%;
+}
+#full_content .full_inner p{
+  text-align: center;
+}
+#full_content .full_inner .close_no{
+  width: 25%;
+  text-align: center;
+  display: block;
+  padding: 5px 0;
+  color: #06908c;
+  font-size: 13px;
+  /* background: linear-gradient(to right, #06908c 0%, #0d566c 100%); */
+  border-radius: 5px;
+  height: 25px;
+  line-height: 25px;
+  float: left;
+  border: 1px solid #06908c;
+}
+#full_content .full_inner .close_ok{
+  width:50%;
+  text-align:center;
+  display: block;
+  padding: 5px 0;
+  color: #fff;
+  font-size: 13px;
+  min-width: 90px;
+  background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border-radius: 5px;
+  height: 25px;
+  line-height: 25px;
+  float:left;
+}
+#full_content .full_inner .close_ok2{
+  width:50%;
+  text-align:center;
+  display: inline-block;
+  padding: 5px 0;
+  color: #fff;
+  font-size: 13px;
+  min-width: 90px;
+  background: linear-gradient(to right, #06908c 0%, #0d566c 100%);
+  border-radius: 5px;
+  height: 25px;
+  line-height: 25px;
+}
+.shadow_bt{
+  position: absolute;
+  top: 81%;
+  width: 45%;
+  left: 47%;
+  height: 7%;
+  text-indent: -9999px;
+}
+#full .apply_complete_popup{
+  display:none;
+}

@@ -1,0 +1,361 @@
+#signUp_area {
+    padding: 30px 40px;
+    overflow: hidden;
+    position: relative;
+}
+#signUp_area h3 {
+  color: #7AABDF;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+#signUp_area .signUp_left_con,
+#signUp_area .signUp_right_con{
+    width: 48%;
+    float: left;
+}
+/*필수,선택 색상값*/
+.must{
+    color:#eaaf69;
+    font-size: 14px;
+    font-weight: 500;
+}
+.choice{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+/*왼쪽부분*/
+#signUp_area .signUp_left_con{
+  margin-right: 2%
+}
+#signUp_area .signUp_left_con label{
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: right;
+    display: block;
+    margin: 7px 0 15px 0;
+}
+#signUp_area .signUp_left_con .agree_content_box{
+    width: 416px;
+}
+#signUp_area .signUp_left_con .agree_content_box_3{
+    border-bottom: 2px solid #0E141C;
+}
+#signUp_area .signUp_left_con .agree_content_box p:not(.text_box){
+    color: #666;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #7AABDF;
+}
+#signUp_area .signUp_left_con .agree_content_box .text_box{
+    border-radius: 5px;
+    border: 1px solid #7AABDF;
+    width: 400px;
+    height: 100px;
+    overflow-y: scroll;
+    font-size: 14px;
+    color: #fff;
+    padding: 7px;
+}
+#signUp_area .signUp_left_con .all_agree_label{
+    text-align: left;
+    margin-top: 17px;
+  color: #fff;
+}
+
+/*오른쪽부분*/
+#signUp_area .signUp_right_con{
+    margin-top: 5px;
+    text-align: center;
+}
+#signUp_area .signUp_right_con > input{
+    width: 400px;
+    font-size: 15px;
+    padding-left: 5px;
+    margin-bottom: 50px;
+}
+#signUp_area .signUp_right_con > input.user_phone_number{
+  width: 300px;
+  font-size: 15px;
+  border-bottom: 1px solid #7AABDF;
+  padding-left: 5px;
+  margin-bottom: 50px;
+}
+#signUp_area .signUp_right_con .join_request_number{
+  border: 1px solid #7AABDF;
+  background:none;
+  color: #7AABDF;
+  padding: 3px 5px;
+  cursor: pointer;
+  width:100px;
+}
+#signUp_area .signUp_right_con .join_request_number:hover{
+  background-color:#7AABDF;
+  color:#fff;
+}
+#signUp_area .signUp_right_con #warning_message{
+    position: absolute;
+    top: 127px;
+    font-size: 11px;
+    margin-left:2px;
+    right: 315px;
+}
+#signUp_area .signUp_right_con .warning_icon{
+  margin-right:2px;
+  vertical-align: -3px;
+}
+#signUp_area .signUp_right_con .password_alarm_wrap{
+    background-color: rgba(27,47,74,.2);
+    border-radius: 5px;
+    line-height: 25px;
+    margin: 0 auto;
+    position: relative;
+}
+#signUp_area .signUp_right_con .password_alarm_wrap::after{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 48%;
+    border-bottom: 10px solid rgba(27,47,74,.2);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    opacity: 0.9;
+}
+#signUp_area .signUp_right_con .password_alarm_wrap .password_alarm_text {
+  overflow: hidden;
+}
+#signUp_area .signUp_right_con .password_alarm_wrap .password_alarm_ul {
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+}
+#signUp_area .signUp_right_con .password_alarm_wrap ul.password_alarm_ul_02{
+    margin-left: -40px;
+}
+#signUp_area .signUp_right_con .password_alarm_wrap ul li span{
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 0 10px 25px;
+    display: block;
+}
+#signUp_area .signUp_right_con .password_alarm_wrap ul li img{
+  vertical-align: -4px;
+  margin-right: 5px;
+}
+#signUp_area .signUp_right_con .password_alarm_wrap .not_meet{
+    color: #f35531;
+    display: block;
+}
+#signUp_area .signUp_right_con .password_alarm_wrap .meet{
+    display: none;
+    color: #7AABDF;
+}
+#signUp_area .signUp_right_con input{
+  border:none;
+  border-bottom:1px solid #7AABDF;
+  background:none;
+}
+#signUp_area .signUp_right_con input.user_passChk{
+    margin-bottom: 10px;
+}
+#signUp_area .signUp_right_con .btn_area{
+  position:absolute;
+  bottom:20px;
+  right: 80px;
+}
+#signUp_area .signUp_right_con .btn_area .join_btn {
+    background: #05080B;
+    border: none;
+    color: #444;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 50px 0 20px 0;
+    text-align: center;
+    width: 400px;
+    cursor: default;
+}
+#signUp_area .signUp_right_con .btn_area .sign_up_bt_on{
+    background: #7AABDF;
+    color: #080D13;
+    display: none;
+    cursor: pointer;
+}
+#signUp_area .signUp_right_con a{
+    font-size: 12px;
+    width: 400px;
+    display: block;
+    text-align: right;
+    color: #fff;
+    text-decoration: underline;
+}
+#signUp_area .signUp_right_con a:hover{
+    color: #eaaf69;
+}
+#signUp_area .signUp_right_con a.signUp_guide{
+    color: #7AABDF;
+    text-decoration: none;
+    margin-bottom: 7px;
+    width: 422px;
+    font-size: 13px;
+}
+#signUp_area .signUp_right_con a.signUp_guide:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+#full,
+#signUp_area .signUp_right_con .password_alarm_wrap::after{
+    display:none;
+}
+#full .popupbox_text{
+  margin-bottom:40px;
+}
+.responsive_h{
+    display: none;
+}
+.none_box{
+  height:95px;
+}
+#full2{
+  display:none;
+}
+#full2 .popupbox_text{
+  margin:10px 0;
+}
+#full2 .leave_member_agree_btn{
+  background: #7AABDF;
+  border: 1px solid #7AABDF;
+  border-radius: 5px;
+  padding: 7px 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top:30px;
+}
+@media (max-width:1024px) {
+
+    .content_wrap .content{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .content_wrap .content .con_nav{
+        width: 95%;
+        margin: 0 auto;
+    }
+    #signUp_area{
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    #signUp_area h3{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    #signUp_area .signUp_left_con,
+    #signUp_area .signUp_right_con{
+        width: 100%;
+    }
+    #signUp_area .signUp_left_con .agree_content_box{
+        width: 100%;
+    }
+    #signUp_area .signUp_left_con .agree_content_box p:not(.text_box){
+        font-size: 14px;
+    }
+    #signUp_area .signUp_left_con .agree_content_box .text_box{
+        width: auto;
+        font-size:12px;
+    }
+    #signUp_area .signUp_right_con > input{
+        width: 98%;
+        font-size: 13px;
+        margin-bottom: 0;
+        margin-top: 40px;
+    }
+    #signUp_area .signUp_right_con a.signUp_guide{
+        width: 100%;
+        margin-top: 10px;
+        text-decoration: underline;
+    }
+    .responsive_h{
+        display: block;
+        font-size: 18px;
+        color: #7AABDF;
+        text-align: left;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    #signUp_area .signUp_right_con #warning_message{
+        top: auto;
+        right: auto;
+        margin-top: 5px;
+    }
+    #signUp_area .signUp_right_con .btn_area{
+        position: initial;
+    }
+    #signUp_area .signUp_right_con .btn_area .join_btn{
+        padding: 7px 25px;
+        margin: 0;
+        width: auto;
+        font-size: 14px;
+    }
+    #signUp_area .signUp_right_con a{
+        width: 100%;
+        margin: 20px 0 15px 0;
+    }
+    #signUp_area .signUp_right_con .password_alarm_wrap{
+        margin:20px 0;
+        line-height: 15px;
+        padding: 15px;
+    }
+    #signUp_area .signUp_right_con .password_alarm_wrap ul li span{
+        font-size: 12px;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+    #signUp_area .signUp_right_con .password_alarm_wrap .password_alarm_ul{
+        width: 100%;
+        margin-left: 0;
+    }
+    #signUp_area .signUp_right_con .password_alarm_wrap ul.password_alarm_ul_02{
+        margin-left: 0;
+    }
+}
+
+@media all and (min-width:1025px) and (max-width:1599px){
+  #signUp_area .signUp_left_con .agree_content_box{
+    width:100%;
+  }
+  #signUp_area .signUp_left_con .agree_content_box .text_box{
+    width:100%;
+    font-size:12px;
+  }
+  #signUp_area .signUp_left_con label{
+    display:block;
+  }
+  #signUp_area .signUp_right_con > input{
+    width:80%;
+    margin-left:15%;
+    font-size:12px;
+  }
+  #signUp_area .signUp_right_con #warning_message{
+    left:50%;
+    right:15%;
+  }
+  #signUp_area .signUp_right_con a.signUp_guide{
+    width:98%;
+  }
+  #signUp_area .signUp_right_con .btn_area .join_btn{
+    width:50%;
+    margin-left:48%;
+  }
+  #signUp_area .signUp_right_con .password_alarm_wrap{
+    left:7%;
+  }
+  #signUp_area .signUp_right_con .password_alarm_wrap ul li span{
+    font-size:6px;
+    padding:10px 0 10px 7%;
+  }
+}

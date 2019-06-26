@@ -1,0 +1,608 @@
+@charset "utf-8";
+/*font*/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v14/xjAJXh38I15wypJXxuGMBjTOQ_MqJVwkKsUn0wKzc2I.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v14/xjAJXh38I15wypJXxuGMBjUj_cnvWIuuBMVgbX098Mw.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v14/xjAJXh38I15wypJXxuGMBkbcKLIaa1LC45dFaAfauRA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v14/xjAJXh38I15wypJXxuGMBmo_sUJ8uO4YLWRInS22T3Y.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v14/xjAJXh38I15wypJXxuGMBr6up8jxqWt8HVA3mDhkV_0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v14/xjAJXh38I15wypJXxuGMBiYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v14/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v14/K88pR3goAWT7BTt32Z01mxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v14/RjgO7rYTmqiVp7vzi-Q5URJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v14/LWCjsQkB6EMdfHrEVqA1KRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v14/xozscpT2726on7jbcb_pAhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v14/59ZRklaO5bWGqF5A9baEERJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v14/u-WUoqrET9fUeobQW7jkRRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+https://www.cssdesignawards.com/sites/ursa-major-supercluster/31499/  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v14/MTP_ySUJH_bn48VBG8sNSq-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v14/MTP_ySUJH_bn48VBG8sNSpX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v14/MTP_ySUJH_bn48VBG8sNShWV49_lSm1NYrwo-zkhivY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v14/MTP_ySUJH_bn48VBG8sNSqaRobkAwv3vxw3jMhVENGA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v14/MTP_ySUJH_bn48VBG8sNSv8zf_FOSsgRmwsS7Aa9k2w.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v14/MTP_ySUJH_bn48VBG8sNSj0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v14/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzK-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzJX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzBWV49_lSm1NYrwo-zkhivY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzKaRobkAwv3vxw3jMhVENGA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzP8zf_FOSsgRmwsS7Aa9k2w.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzD0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v14/EInbV5DfGHOiMmvb1Xr-hq-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v14/EInbV5DfGHOiMmvb1Xr-hpX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v14/EInbV5DfGHOiMmvb1Xr-hhWV49_lSm1NYrwo-zkhivY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v14/EInbV5DfGHOiMmvb1Xr-hqaRobkAwv3vxw3jMhVENGA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v14/EInbV5DfGHOiMmvb1Xr-hv8zf_FOSsgRmwsS7Aa9k2w.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v14/EInbV5DfGHOiMmvb1Xr-hj0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v14/EInbV5DfGHOiMmvb1Xr-hugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+
+/* reset */
+body {
+	font:normal 12px "Open Sans",sans-serif;
+	line-height:1;
+	color:#282828;
+	background-color:#f1efe9;
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3, h4, h5, h6 {font-size:1em;}
+h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption {
+	margin:0;
+	padding:0;
+}
+ul, ol {list-style:none;}
+img {border:0;}
+a {text-decoration:none; color:#282828;}
+table {border-collapse:collapse; width:100%;}
+caption {visibility: hidden; height: 0;}
+
+/* layout */
+.wrap {
+	padding-top: 109px;
+}
+header {
+	position: fixed;
+	top:0;
+	left: 0;
+	background-color: #f1efe9;
+	padding: 17px 20px;
+	width: 100%;
+	height: 109px;
+	box-sizing: border-box;
+	box-shadow: 0 0 15px 20px #f1efe9;
+	z-index: 100;
+}
+main > .inner {
+	width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+aside {
+	margin: 76px 0 60px 0;
+}
+footer {
+	padding: 35px 20px;
+    height: 93px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+/*header*/
+header > h1 {
+	/*border: 1px solid red;*/
+	width: 33.333333%;
+	float: left;
+	transform: translate(0,80%);
+}
+header > .logo_slider {
+	width: 33%;
+	float: left;
+	text-align: center;
+	margin-top: -17px;
+}
+header > .logo_slider .bxslider > li > a > img {
+	width: 150px;
+	height: 100px;
+}
+header > .h_right {
+	float: right;
+	width: 33.333333%;
+	height: 22px;
+	transform: translate(0,80%);
+	text-align: right;
+}
+header > .h_right > nav {
+	display: inline-block;
+}
+header > .h_right > .search {
+	display: inline-block;
+	margin: 0 32px;
+}
+header > .h_right > .submit {
+	display: inline-block;
+	font-weight: 800;
+	letter-spacing: 4px;
+	padding: 5px 24px 5px 0;
+	vertical-align: 5px;
+}
+
+/*main*/
+main > .inner > .intro {
+	padding-top: 60px;
+	margin-bottom: 60px;
+	padding-left: 10.37%;
+}
+main > .inner > .intro > .intro_date {
+	font-weight: 700;
+	letter-spacing: 4px;
+	line-height: 16px;
+	margin-bottom: 18px;
+}
+main > .inner > .intro > .intro_top {
+	overflow: hidden;
+}
+main > .inner > .intro > .intro_top > .left {
+	float: left;
+	width: 66.582%;
+}
+main > .inner > .intro > .intro_top > .left img{
+	width: 100%;
+	box-shadow: 10px 15px 35px -5px rgba(0,0,0,.25);
+}
+main > .inner > .intro > .intro_top > .right {
+	padding-left: 6.9%;
+	width: 33.418%;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+	float: left;
+}
+main > .inner > .intro > .intro_top > .right > img {
+	width: 120px;
+	margin: 0 0 25px 14px;
+}
+main > .inner > .intro > .intro_top > .right > h3 {
+	margin-bottom: 2.7px;
+	font-size: 18px;
+	font-weight: 800;
+	letter-spacing: 2px;
+}
+main > .inner > .intro > .intro_top > .right > h4,span {
+	display: block;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 1px;
+}
+main > .inner > .intro > .intro_bottom {
+	background-color: #e2ded1;
+	width: 77.379%;
+	margin-left: auto;																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												
+}
+main > .inner > .intro > .intro_bottom > .first_area {
+	padding-top: 34px;
+	margin-top: -154px;
+}
+main > .inner > .intro > .intro_bottom > .first_area > .txt_area {
+	width: 26.188%;
+    margin-left: auto;
+    padding: 0 8%;
+    margin-bottom: 27.6px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1px;
+
+}
+main > .inner > .intro > .intro_bottom > .first_area > .judges {
+	width: 34.188%;
+	margin-left: auto;
+    padding-left: 8%;
+    overflow: hidden;
+}
+main > .inner > .intro > .intro_bottom > .first_area > .judges img {
+	width: 40px;
+	display: block;
+	float: left;
+}
+main > .inner > .intro > .intro_bottom > .second_area {
+	padding: 43px 70px 54px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+main > .inner > .intro > .intro_bottom > .second_area > .col1 {
+	float: left;
+	width: 24%;
+	text-align: center;
+}
+main > .inner > .intro > .intro_bottom > .second_area > .col1 i {
+	display: inline-block;
+	padding: 10px;
+	opacity: 0.4;
+	border: 4px solid #282828;
+	border-radius: 50%;
+	margin-bottom: 4px;
+}
+main > .inner > .intro > .intro_bottom > .second_area > .col1 strong {
+	display: block;
+	font-size: 11px;
+	line-height: 17px;
+	letter-spacing: 4px;
+}
+main > .inner > .intro > .intro_bottom > .second_area > .col1 span {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+main > .inner > .intro > .intro_bottom > .second_area > .col1 b {
+	color: #8d8c8c;
+	font-size: 11px;
+	letter-spacing: 4px;
+	font-weight: 700;
+}
+main > .inner > .intro > .intro_bottom > .second_area > .total {
+	width: 26%;
+}
+main > .inner > .intro > .intro_bottom > .second_area > .total span {
+	font-size: 24px;
+	line-height: 46px;
+	font-weight: 800;
+	padding-top: 4px;
+	margin-bottom: 6px;
+}
+main > .inner > .projects {
+	width: 100%;
+	overflow: hidden;
+}
+main > .inner > .projects > a {
+	display: block;
+}
+main > .inner > .projects h2{
+	font-size: 14px;
+	display: inline-block;
+	margin-bottom: 76.4px;
+	letter-spacing: 5px;
+	font-weight: 800;
+	padding: 54px 5px 0;
+}
+main > .inner > .projects .col2 {
+    margin: 0 auto;
+    width: 28%;
+    margin-bottom: 102px;
+    float: left;
+    box-sizing: border-box;
+}
+main > .inner > .projects .col2 + .col2 {
+	margin-left: 8%;
+}
+main > .inner > .previous .col2:nth-child(3n+1) + .col2 {
+	margin-left: 0;
+}
+main > .inner > .previous .col2:nth-child(7) {
+	border: 1px solid red;
+}
+main > .inner > .projects .col2 > a > img {
+	width: 100%;
+	margin-bottom: 27px;
+	position: relative;
+}
+main > .inner > .projects .col2 > h3 {
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 800;
+	margin-bottom: 5.6px;
+}
+main > .inner > .projects .col2 > span:before {
+	content: '\f091';
+	font-family: FontAwesome;
+	margin-right: 4px;
+	opacity: 0.5;
+}
+main > .inner > .projects .col2 > span {
+	display: inline-block;
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-right: 15px;
+}
+/*main > .inner > .projects .col2 > .overlay {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(40,40,40,.92);
+    z-index: 100;
+}*/
+main > .inner > .projects .col2 > a > img:hover  .overlay {
+	/*top:0;*/
+}
+main > .inner > .previous  {
+	border: 1px solid blue;
+}
+/*main > .inner > .previous > .more  span{
+	border: 1px solid red;
+	display: inline-block;
+} */
+
+/*aside*/
+aside > .banner {
+	text-align: center;
+}
+aside > .banner img {
+	width: 716px;
+	height: 150px;
+}
+/*footer*/
+footer > .f_area {
+	float: left;
+	width: 33.3333%;
+}
+footer > .f_area span {
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0;
+}
+footer > .f_center {
+	text-align: center;
+	
+}
+footer > .f_area > .sns {
+	border: 1px solid red;
+	overflow: hidden;
+}
+footer > .f_area > .sns > li {
+	float: left;
+	/*margin: 0 3%;*/
+}
+footer > .f_area > .f_right {
+	text-align: right;
+}

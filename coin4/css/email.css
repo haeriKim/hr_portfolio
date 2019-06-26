@@ -1,0 +1,153 @@
+body{
+    background: #fff;
+}
+#container{
+    max-width: 660px;
+    width: 100%;
+    margin: 10% auto;
+    background: #0E141C;
+    border-radius: 5px;
+    border: 1px solid #7AABDF;
+}
+#container h1{
+    padding: 20px 10px 10px 10px;
+}
+#container h1 img{
+    width: 104px;
+}
+p.congratuation_m,
+p.login_m{
+    color: #fff;
+    background: url(../img/email_background.jpg) no-repeat 0 0;
+    height: 138px;
+    font-weight: 600;
+    font-size: 33px;
+    padding: 80px 10px 0 20px;
+}
+.content{
+    padding: 20px;
+    font-size: 15px;
+}
+.content > p{
+    color: #fff;
+    line-height: 1.5;
+}
+.content > p .user_mail{
+    color: #eaaf69;
+    font-weight: 600;
+}
+.content .info_table_wrap{
+    margin: 45px 0;
+}
+.content .info_table_wrap .info_table{
+    width: 95%;
+    border: 1px solid #7AABDF;
+}
+.content .info_table_wrap p.table_title{
+    color: #7AABDF;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.content .info_table_wrap .info_table tbody tr{
+    border-left: none;
+    height: 40px;
+    color: #4c4c4c;
+}
+.content .info_table_wrap .info_table tbody th{
+    background-color: #05080B;
+    border-right: 2px solid #7AABDF;
+    color: #7AABDF;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    width: 30%;
+}
+.content .info_table_wrap .info_table tbody td{
+    text-align: left;
+    padding-left: 40px;
+    color: #fff;
+}
+.content .text_eng{
+    margin-top: 30px;
+    display: block;
+    color: #fff;
+    font-weight: 600;
+}
+.content .site a{
+    margin-top: 5px;
+    display: block;
+    color: #7AABDF;
+}
+.content p.sub_text{
+    margin:50px 20px 30px 0;
+    text-align: center;
+    color: #aaa;
+    font-size: 13px;
+}
+.content_footer{
+    background: #090D13;
+    padding: 20px;
+}
+.content_footer p{
+    margin-top: 10px;
+    line-height: 1.6;
+    font-size: 13px;
+    color: #fff;
+}
+.content_footer p .cs_mail{
+    color: #017eff;
+    font-weight: 600;
+}
+
+/*이메일인증*/
+p.certification_m{
+    color: #fff;
+    background: url(../img/email_background.jpg) no-repeat 0 0;
+    height: 75px;
+    font-weight: 600;
+    font-size: 33px;
+    padding: 138px 0 15px 20px;
+}
+.content .certification_number_wrap{
+    margin: 40px 0;
+    line-height: 60px;
+}
+.content .certification_number_wrap .certification_number_name{
+    color: #7AABDF;
+    font-weight: 600;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.content .certification_number_wrap .code{
+    background: #05080B;
+    color: #7AABDF;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 11px 36%;
+    border: 1px solid #7AABDF;
+}
+
+
+/*반응형*/
+@media screen and (max-width:420px){
+    p.congratuation_m,
+    p.login_m{
+        font-size: 24px;
+        height: 110px;
+    }
+    p.certification_m{
+        font-size: 24px;
+        height: 64px;
+        padding-top: 106px;
+    }
+    p.congratuation_m{
+        padding: 80px 10px 0 10px;
+    }
+}
+@media screen and (max-width:1024px){
+    p.certification_m,
+    p.congratuation_m,
+    p.login_m{
+        background-size: 100% 100%;
+    }
+}

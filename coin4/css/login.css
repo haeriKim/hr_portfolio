@@ -1,0 +1,154 @@
+/* login */
+#wrap #container .login_button{
+    background: none;
+    border:1px solid #7AABDF;
+    color: #080D13;
+    background: #7AABDF;
+}
+#wrap #container .login_button:hover{
+    background: #080D13;
+    color : #7AABDF;
+    border: 1px solid #7AABDF;
+}
+.login_content #login_area{
+    position: relative;
+}
+.login_content #login_area form h3{
+    color:#7AABDF;
+    font-size:25px;
+    padding-bottom:30px;
+}
+.login_content #login_area p{
+    font-size:13px;
+    color:#fff;
+    margin-left:5px;
+    margin-bottom:30px;
+}
+.login_content #login_area input{
+    border-style: none;
+    border-bottom: 1px solid #7AABDF;
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    display: block;
+    color: #fff;
+    width: 95%;
+    margin-bottom: 25px;
+}
+
+.login_content #login_area .wrong_info{
+    color:#f35531;
+    font-size:13px;
+    margin-left:5px;
+    margin-bottom: 20px;
+}
+
+.login_content #login_area .login_info{
+    overflow: hidden;
+    margin-bottom:10px;
+}
+
+.login_content #login_area .login_info a{
+    color:#fff;
+    font-size:13px;
+    float: left;
+}
+.login_content #login_area .login_info .OTP_guide{
+  float:right;
+  color:#fff;
+  font-size:13px;
+  text-decoration:underline;
+}
+.login_content #login_area .login_info .OTP_guide:hover{
+  color:#eaaf69;
+}
+
+.login_content #login_area .login_info ul{
+    display: inline-block;
+    margin-left:95px;
+    width: 200px;
+}
+
+.login_content #login_area .login_info ul li{
+    float: right;
+}
+
+.login_content #login_area .login_info ul li:nth-child(2){
+    margin-right: 10px;
+    border-right: 1px solid #fff;
+    padding-right: 10px;
+}
+
+.login_content #login_area .login_info .e_mail_find{
+    color:#05080B;
+    background-color:#7AABDF;
+    font-size:15px;
+    font-weight: bold;
+    position: absolute;
+    top:102%;
+    left:50px;
+    display: none;
+    width: 300px;
+    text-align: center;
+    padding:10px 0;
+    line-height: 1.5;
+    border-radius: 5px;
+    cursor: auto;
+}
+.login_content #login_area .login_info .e_mail_find:after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color:  transparent transparent #7AABDF transparent;
+}
+/*'i'아이콘*/
+/*.login_content #login_area .login_info .notify_icon::before{
+    content:'i';
+    font-size:13px;
+    color:#eaaf69;
+    background-color:#fff;
+    border-radius:10px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: absolute;
+    left:5px;
+    top:12px;
+
+
+}*/
+.login_content #login_area .login_info ul li:hover .e_mail_find{
+    display:block;
+}
+.login_content #login_area .warning_icon{
+  margin-right:2px;
+  vertical-align: -3px;
+}
+.gray_box_login{
+  width:100%;
+  height:78px;
+}
+.gray_box_OTP{
+  width:100%;
+  height:85px;
+}
+@media all and (min-width:320px) and (max-width:1024px){
+    .content_wrap .content{
+        width: 100%;
+    }
+    .content_wrap .con_410{
+        width: 90%;
+        margin: 100px auto;
+        padding: 20px;
+    }
+    .login_content #login_area form h3{
+        font-size: 20px;
+    }
+    #wrap #container .login_button{
+        font-size: 15px;
+    }
+}

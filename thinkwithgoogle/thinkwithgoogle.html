@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<title>think with Google</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/thinkwithgoogle.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready( function(){
+
+        	var myslide = $('.bxslider').bxSlider({
+                pager: false,
+                auto: false,
+                minSlides: 1,
+  				maxSlides: 3,
+  				moveSlides:1,
+  				slideWidth: 559,
+  				slideMargin: 50,
+  				infiniteLoop: false,
+            });
+
+        	var clientWidth = $(document).width()+17; 
+        	console.log(clientWidth)
+        	판단하기(clientWidth);
+
+        	$(window).resize(function(){
+        		clientWidth = $(document).width()+17;
+        		판단하기(clientWidth)
+        	});
+
+
+        	function 판단하기 (clientWidth) {
+	        	if ( clientWidth >= 1024) {
+	        		myslide.reloadSlider({
+		                pager: false,
+		                auto: false,
+		                minSlides: 1,
+		  				maxSlides: 3,
+		  				moveSlides:1,
+		  				slideWidth: 559,
+		  				slideMargin: 50,
+		  				infiniteLoop: false,
+	            	});
+
+	        	} else if (clientWidth >= 679 && clientWidth <= 1023) {
+	        		myslide.reloadSlider({
+		                pager: false,
+		                auto: false,
+		                minSlides: 1,
+		  				maxSlides: 3,
+		  				moveSlides:1,
+		  				slideWidth: 320,
+		  				slideMargin: 20,
+		  				infiniteLoop: false,
+	            	}); 
+	        	}else if (clientWidth <= 680) {
+	        		myslide.reloadSlider({
+		                pager: false,
+		                auto: false,
+		                minSlides: 1,
+		  				maxSlides: 3,
+		  				moveSlides:1,
+		  				slideWidth: 230,
+		  				slideMargin: 25,
+		  				infiniteLoop: false,
+	            	}); 
+	        	}
+	        } 
+
+        });
+    </script>
+</head>
+
+<body>
+<div class="wrap">
+	<header>
+		<h1><a href="https://www.thinkwithgoogle.com/cee/"><img src="images/think-with-google-logo-color.svg"></a></h1>
+		<select name="language">
+			<option>Aisa Pacific (English)</option>
+			<option>Brasil</option>
+			<option selected="selected">Central and Eastern Europs</option>
+			<option>Deutschland</option>
+			<option>Espana</option>
+			<option>France</option>
+			<option>Italia</option>
+			<option>Latinoamerica(Espanol)</option>
+			<option>MENA (English)</option>
+			<option>Nordics (English)</option>
+			<option>Turkiye</option>
+			<option>United Kingdom</option>
+			<option>United States</option>
+			<option>Россия</option>
+			<option>ราชอาณาจักรไทย</option>
+			<option>台灣</option>
+			<option>日本語 - 日本</option>
+			<option>한국</option>
+		</select>
+		<nav>
+			<ul class="nav_menu">
+				<li>
+					<a href="">Success Stories</a>
+					<ul class="dropdown">
+						<li><a href="">Local Case Studies</a></li>
+						<li><a href="">Global Case Studies</a></li>
+						<li><a href="">YouTube Ads Leaderboard</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">Insight & Trends</a>
+					<ul class="dropdown">
+						<li><a href="">Ressearch & Data</a></li>
+						<li><a href="">Thought Leadership</a></li>
+						<li><a href="">Industry Perspectives</a></li>
+						<li><a href="">UX & Design</a></li>
+						<li><a href="">Marketing Collections</	a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">Advertising Channels & Tools</a>
+					<ul class="dropdown">
+						<div class="top">
+							<li><a href="">Search</a></li>
+							<li><a href="">Video</a></li>
+							<li><a href="">Mobile</a></li>
+							<li><a href="">Programmatic</a></li>
+						</div>
+						<li><a href="">Tools</a></li>
+						<li><a href="">Products</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<!-- <a href=""><img src="images/search.png"></a> -->
+	</header>
+	<main>
+		<section class="sec1">
+			<div class="col2 left">
+				<div class="img_area">
+					<a href="" >
+						<img src="images/c9728_BANNER-Czech-report-2017.jpg">
+					</a>
+				</div>
+				<div class="txt_box">
+					<span class="location local">LOCAL</span>
+					<h3><a href="">Travel trends in Czech Republic</a></h3>
+					<strong><a href="">Search</a></strong>
+					<i>ARTICLE</i>
+				</div>	
+			</div>
+			<div class="col2 right">
+				<div class="img_area">
+					<a href="">
+						<img src="images/6b535_BANNER-measuring-impact-of-video.jpg">
+					</a>
+				</div>
+					<div class="txt_box">
+						<span class="location local">LOCAL</span>
+						<h3><a href="">Breakthroughs in Measuring the Impact of Video</a></h3>
+						<strong><a href="">Video</a></strong>
+						<i>ARTICLE</i>
+					</div>
+			</div>
+		</section>
+		<section class="sec2">
+			<ul class="col1">
+				<li>
+					<div class="img_area">
+						<a href=""><img src="images/2b418_C75-BANNER.jpg"></a>
+					</div>
+					<span class="location local">LOCAL</span>
+				</li>
+				<div class="txt_box">
+					<li><h3><a href="">Travel trends in Hungary</a></h3></li>
+					<li>
+						<strong><a href="">Moblie</a></strong>
+						<strong>•</strong>
+						<strong><a href="">Search</a></strong>
+					</li>
+					<li><i>ARTICLE</i></li>
+				</div>
+			</ul>
+			<ul class="col1">
+				<li>
+					<div class="img_area">
+						<a href=""><img src="images/015fc_F48-BANNER.jpg"></a>
+					</div>
+					<span class="location local">LOCAL</span>
+				</li>
+				<div class="txt_box">
+					<li><h3><a href="">Get to grips with cross-device strategy essentials</a></h3></li>
+					<li><strong><a href="">Cross-Media</a></strong></li>
+					<li><i>ARTICLE</i></li>
+				</div>
+			</ul>
+			<ul class="col1">
+				<li>
+					<div class="img_area">
+						<a href=""><img src="images/f4cfa_YouTube Gaming-BANNER.jpg"></a>
+					</div>
+					<span class="location global">GLOBAL</span>
+				</li>
+				<div class="txt_box">
+					<li><h3><a href="">3 Trends on YouTube That Prove Gaming Culture Isn’t So Niche</a></h3></li>
+					<li><strong><a href="">Video</a></strong></li>
+					<li><i>ARTICLE</i></li>
+				</div>
+			</ul>
+			<div class="col1">
+				<div class="link newsletter">
+					<h4>THINK NEWSLETTER</h4>
+					<p>Get all the industry insights straight to your inbox</p>
+					<img src="images/newsletter-signup.svg">
+					<a href="">SUBSCRIBE NOW</a>
+				</div>
+				<div class="link youtube">
+					<p>Stay up to date with what's trending on YouTube</p>
+					<img src="images/youtube.svg">
+				</div>
+			</div>
+		</section>
+		<section class="sec3">
+			<div class="left">
+				<div class="article">
+					<div class="img_area"><a href=""><img src="images/89911_Innovators-cee-BANNER.jpg"></a></div>
+					<ul>
+						<li><span class="location local">LOCAL</span></li>
+						<li><h3><a href="">Think with Innovators: Sławomir Stępniewski, Chief Executive Officer, Dentsu Aegis Network Poland & NCE Innovation</a></h3></li>
+						<li><strong><a href="">Video</a></strong></li>
+						<li><i>ARTICLE</i></li>
+					</ul>
+				</div>
+				<div class="article">
+					<div class="img_area"><a href=""><img src="images/9cad7_BANNER-Innovators-Maria-final.jpg"></a></div>
+					<ul>
+						<li><span class="location local">LOCAL</span></li>
+						<li><h3><a href="">Think with Innovators: Maria Tudor, Chief Media Officer, Publicis One</a></h3></li>
+						<li><strong><a href="">Video</a></strong></li>
+						<li><i>ARTICLE</i></li>
+					</ul>
+				</div>
+				<div class="article">
+					<div class="img_area"><a href=""><img src="images/1d395_BANNER_Innovators_Kamil.jpg"></a></div>
+					<ul>
+						<li><span class="location local">LOCAL</span></li>
+						<li><h3><a href="">Think with Innovators: Kamil Wiszowaty, Managing Director, Value Media</a></h3></li>
+						<li><strong><a href="">Video</a></strong></li>
+						<li><i>ARTICLE</i></li>
+					</ul>
+				</div>
+			</div>
+			<div class="right">
+				<h2>Planning Tools</h2>
+				<div class="planning_list">
+					<a href="">
+						<h4>Consumer Barometer</h4>
+						<p>Would you like to get to know your target audience better? Explore how...</p>
+						<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+						</svg>
+					</a>
+				</div>
+				<div class="planning_list">
+					<a href="">
+						<h4>Google Trends</h4>
+						<p>Are searches for your brand increasing over time? Are consumer...</p>
+						<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+						</svg>
+					</a>
+				</div>
+				<div class="planning_list">
+					<a href="">
+						<h4>Test My Site</h4>
+						<p>Test My Site is an easy way for businesses to measure their site’s...</p>
+						<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path d="M0 0h24v24H0z" fill="none"></path>
+						<path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+						</svg>
+					</a>
+				</div>
+				<a href="#" class="more">VIEW MORE TOOLS ></a>
+			</div>
+		</section>
+		<section class="stories">
+			<h2>Guest Editor Stories</h2>
+			<div class="stories_inner s_left">
+				<div class="top">
+					<img src="images/jaclyn-loo_profiles.png">
+					<ul>
+						<li>Jaclyn Loo</li>
+						<li>Senior Product Marketing Manager, Travel<br>Google</li>
+					</ul>
+				</div>
+				<div class="img_area"><a href=""><img src="images/e657c_best-travel-websites-mobile-experience-BANNER.jpg"></a></div>
+				<ul class="bottom">
+					<li><h3><a href="">Travel Planning and Purchasing Has Evolved on Mobile</a></h3></li>
+					<li>
+						<strong><a href="">Search</a></strong>
+						<strong>•</strong>
+						<strong><a href="">Video</a></strong>
+					</li>
+					<li><i>ARTICLE</i></li>
+				</ul>
+			</div>
+			<div class="stories_inner s_right">
+				<div class="top">
+					<img src="images/e9e9b_Lorna.jpg">
+					<ul>
+						<li>Lorna Kimberley</li>
+						<li>Head of Marketing<br>Mizkan Euro Ltd.</li>
+					</ul>
+				</div>
+				<div class="img_area"><a href=""><img src="images/d965b_Meet-the-Mavericks-BANNER.jpg"></a></div>
+				<ul class="bottom">
+					<li><h3><a href="">Cannes Lions 2017: Meet the Mavericks - Magic from Award Winning Advertisers</a></h3></li>
+					<li><strong><a href="">Video</a></strong></li>
+					<li><i>ARTICLE</i></li>
+				</ul>
+			</div>
+		</section>
+		<section class="leaderboards">
+			<div class="text">
+				<h2>Latest YouTube Ad Leaderboards</h2>
+				<p>View the ads people are watching on YouTube and celebrate with the brands and agencies who created them</p>
+			</div>
+			<ul class="bxslider">
+				<li class="slider">
+					<div class="img_area">
+						<a href=""><img src="images/aad0b_LRGT-YTAL-June.jpg"></a>
+					</div>
+					<div class="textbox">
+						<h3><a href="">YouTube Ads Leaderboard - Poland: June 2017</a></h3>
+						<i>MONTHLY LEADERBOARD</i>
+					</div>
+				</li>
+				<li class="slider">
+					<div class="img_area">
+						<a href=""><img src="images/9a171_LRGT-YTAL-PL-April2017.jpg"></a>
+					</div>
+					<div class="textbox">
+						<h3><a href="">YouTube Ads Leaderboard - Poland: May 2017</a></h3>
+						<i>MONTHLY LEADERBOARD</i>
+					</div>
+				</li>
+				<li class="slider">
+					<div class="img_area">
+						<a href=""><img src="images/b3af2_LRGT-YTAL-Cannes-2017.jpg"></a>
+					</div>
+					<div class="textbox">
+						<h3><a href="">YouTube Ads Leaderboard - Poland: Cannes 2017</a></h3>
+						<i>BESPOKE LEADERBOARD</i>
+					</div>
+				</li>
+				<li class="slider">
+					<div class="img_area">
+						<a href=""><img src="images/9a171_LRGT-YTAL-PL-April2017.jpg"></a>
+					</div>
+					<div class="textbox">
+						<h3><a href="">YouTube Ads Leaderboard - Poland: April 2017</a></h3>
+						<i>MONTHLY LEADERBOARD</i>
+					</div>
+				</li>
+				<li class="slider">
+						<div class="img_area">
+							<a href=""><img src="images/d1000_LRGT-YTAL-RO-April2017.jpg"></a>
+						</div>
+						<div class="textbox">
+							<h3><a href="">YYouTube Ads Leaderboard: Romania Q1 2017</a></h3>
+							<i>QUARTERLY LEADERBOARD</i>
+						</div>		
+				</li>
+				<li class="slider">
+					<div class="img_area">
+						<a href=""><img src="images/51388_Screens-for-YTAL-February-LRGT.jpg"></a>
+					</div>
+					<div class="textbox">
+						<h3><a href="">YouTube Ads Leaderboard - Poland: March 2017</a></h3>
+						<i>MONTHLY LEADERBOARD</i>
+					</div>
+				</li>
+				<li class="slider">
+					<div class="img_area">
+						<a href=""><img src="images/74264_LRGT-YT-women.jpg"></a>
+					</div>
+					<div class="textbox">
+						<h3><a href="">YouTube Leaderboard: International Women's Day 2017</a></h3>
+						<i>BESPOKE LEADERBOARD</i>
+					</div>
+				</li>
+				<li class="slider">
+					<div class="img_area">
+						<a href=""><img src="images/0a5f2_leaderboard 2 oscars.jpg"></a>
+					</div>
+					<div class="textbox">
+						<h3><a href="">YouTube Film Trailer Leaderboard: Oscars 2017<</a></h3>
+						<i>BESPOKE LEADERBOARD</i>
+					</div>
+				</li>
+				<li class="slider">
+					<div class="img_area">
+						<a href=""><img src="images/c126f_LRGT-YTAL-Poland-01.jpg"></a>
+					</div>
+					<div class="textbox">
+						<h3><a href="">YouTube Ads Leaderboard - Poland: January 2017</a></h3>
+						<i>MONTHLY LEADERBOARD</i>
+					</div>
+				</li>
+			</ul>
+			<a href="" class="more">VIEW MORE LEADERBOARDS ></a>
+		</section>
+		<section class="sec3 img_no">
+			<div class="left">
+				<div class="article">
+					<div class="img_area"><a href=""><img src="images/6df6f_OPAP-BANNER.jpg"></a></div>
+					<ul>
+						<li><span class="location local">LOCAL</span></li>
+						<li><h3><a href="">OPAP Increases Installs and Lowers CPI with Universal App Campaigns</a></h3></li>
+						<li>
+							<strong><a href="">Display</a></strong>
+							<strong>•</strong>
+							<strong><a href="">Mobile</a></strong>
+							<strong>•</strong>
+							<strong><a href="">Search</a></strong>
+						</li>
+						<li><i>CASE STUDY</i></li>
+					</ul>
+				</div>
+				<div class="article">
+					<div class="img_area"><a href=""><img src="images/e3889_F26-BANNER.jpg"></a></div>
+					<ul>
+						<li><span class="location local">LOCAL</span></li>
+						<li><h3><a href="">JetBrains integrates DoubleClick with Google Analytics 360</a></h3></li>
+						<li><strong><a href="">Programmatic</a></strong></li>
+						<li><i>CASE STUDY</i></li>
+					</ul>
+				</div>
+				<div class="article">
+					<div class="img_area"><a href=""><img src="images/bd722_Banner-Vodafone.jpg"></a></div>
+					<ul>
+						<li><span class="location local">LOCAL</span></li>
+						<li><h3><a href="">Testing creatives for Vodafone using Brand Lift surveys</a></h3></li>
+						<li><strong><a href="">Video</a></strong></li>
+						<li><i>CASE STUDY</i></li>
+					</ul>
+				</div>
+			</div>
+			<div class="right">
+				<h2>Google products</h2>
+				<ul class="product_list">
+					<li>
+						<a href="">
+							<div class="left">
+								<img src="images/icon-doubleclick.png">
+							</div>
+							<div class="right">
+								<h4>DoubleClick</h4>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="left">
+								<img src="images/icon-google-ads.png">
+							</div>
+							<div class="right">
+								<h4>Google Ads</h4>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="left">		
+								<img src="images/icon-google-analytics.png">
+							</div>
+							<div class="right">
+								<h4>Google Analytics</h4>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="left">
+								<img src="images/icon-google-consumer-surveys.png">
+							</div>
+							<div class="right">
+								<h4>Google Consumer Surveys</h4>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="left">
+								<img src="images/icon-google-ads.png">
+							</div>
+							<div class="right">
+								<h4>Google Display Network</h4>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="left">
+								<img src="images/icon-google-for-brands.png">
+							</div>
+							<div class="right">
+								<h4>Google+ for Brands</h4>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="left">
+								<img src="images/icon-youtube.png">
+							</div>
+							<div class="right">
+								<h4>YouTube</h4>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="think_newsletter">
+			<div class="center">
+			<div class="img_area">
+				<a href=""><img src="images/newsletter-signup.svg"></a>
+			</div>
+				<div class="text">	
+					<h3>Think newsletter</h3>
+					<span>Put insights in your inbox.</span>
+					<a href=""><span>SIGN UP NOW</span></a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="f_top">
+			<a href=""><img src="images/google-logo-light.svg"></a>
+			<ul>
+				<div class="top">
+					<li><a href="">About Think with Google</a></li>
+					<li><a href="">Send us feedback</a></li>
+				</div>
+				<div class="bottom">
+					<li><a href="">Google</a></li>
+					<li><a href="">About Google</a></li>
+					<li><a href="">Privacy & Terms</a></li>
+				</div>
+			</ul>
+		</div>
+		<div class="f_bottom">
+			<select name="language">
+				<option>Aisa Pacific (English)</option>
+				<option>Brasil</option>
+				<option selected="selected">Central and Eastern Europs</option>
+				<option>Deutschland</option>
+				<option>Espana</option>
+				<option>France</option>
+				<option>Italia</option>
+				<option>Latinoamerica(Espanol)</option>
+				<option>MENA (English)</option>
+				<option>Nordics (English)</option>
+				<option>Turkiye</option>
+				<option>United Kingdom</option>
+				<option>United States</option>
+				<option>Россия</option>
+				<option>ราชอาณาจักรไทย</option>
+				<option>台灣</option>
+				<option>日本語 - 日本</option>
+				<option>한국</option>
+			</select>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
+
+
+
+
+
+

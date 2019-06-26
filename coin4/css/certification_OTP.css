@@ -1,0 +1,225 @@
+/*left*/
+.cer_center .center_bottom {
+  overflow: hidden;
+}
+.cer_center .center_bottom .cText_left3 {
+  float: left;
+  border-right: 1px solid #7AABDF;
+  width: 45%;
+  margin-right: 3%;
+  height: 800px;
+  padding-right:40px;
+}
+.center_bottom .cText_left3 strong{
+  font-size:15px;
+  color:#fff;
+  margin-bottom:20px;
+  display:block;
+}
+.center_bottom .content_title{
+    margin-bottom: 20px;
+}
+.center_bottom .cText_left3 strong span{
+  font-size:25px;
+}
+.cText_left3 .android{
+  border-bottom:1px solid #cdcdcd;
+  padding-bottom:20px;
+
+}
+.cText_left3 li.app_title{
+  width:400px;
+  overflow:hidden;
+  margin:20px 0;
+  font-size:13px;
+  font-weight:600;
+}
+.cText_left3 li.app_text{
+  color:#7AABDF;
+  overflow: hidden;
+}
+
+.cText_left3 li.app_text img{
+
+  padding: 10px;
+  float: left;
+}
+.cText_left3 li.app_text span {
+  display: inline-block;
+  float: left;
+  width: 75%;
+  margin-left: 2%;
+  font-weight:600;
+  font-size:14px;
+  margin-top:-15px;
+}
+
+
+
+/*right*/
+
+.cer_center .center_bottom .cText_right3 {
+  padding-left:20px;
+  float: left;
+  width: 45%;
+}
+.cer_center .center_bottom .cText_right3 strong{
+  font-size:15px;
+  color:#fff;
+  margin-bottom:10px;
+  display:block;
+}
+.center_bottom .cText_right3 strong span{
+  font-size:25px;
+}
+.cText_right3 ul li{
+  font-size:15px;
+  font-weight:600;
+  line-height:2.5em;
+  color:#7AABDF;
+}
+.cText_right3 .qr_code_img{
+  float:left;
+  overflow:hidden;
+  margin-left:50px;
+  text-align:center;
+}
+.cText_right3 .qr_code a{
+  font-size:12px;
+  float:right;
+  color:#efefef;
+  margin-top:60px;
+  margin-right:25px;
+  text-decoration:underline;
+}
+.cText_right3 .qr_code a:hover{
+  color:#eaaf69;
+}
+.cText_right3 .qr_code_imgbox{
+  border:1px solid #7AABDF;
+  display:block;
+  padding:15px;
+  margin-bottom:55px;
+  width:250px;
+}
+.cText_right3 .qr_code_key{
+  float:left;
+  text-align:center;
+  margin-left:100px;
+}
+.cText_right3 .qr_code_key2{
+  margin-top:30px;
+  border:1px solid #7AABDF;
+  padding:5px 10px;
+}
+.cText_right3 .OTP_code{
+  float:left;
+}
+.cText_right3 .OTP_code .OTP_reset{
+  font-size:12px;
+  vertical-align: 2px;
+  color:#eaaf69;
+}
+
+.cText_right3 .OTP_codebox{
+  padding:20px 0;
+  position:relative;
+}
+.cText_right3 .OTP_number{
+  color:#7AABDF;
+  border:none;
+  width:400px;
+  background:none;
+  border-bottom:1px solid #7AABDF;
+  padding-bottom:5px;
+  margin-bottom:10px;
+
+}
+
+
+.cText_right3 #OTP_complete{
+  text-align:center;
+}
+.cText_right3 .OTP_complete{
+    border-radius: 5px;
+    padding: 7px 30px;
+    color: #0E141C;
+    font-weight: 600;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid #7AABDF;
+    background-color: #7AABDF;
+    margin-top: 40px;
+    cursor: pointer;
+    width: 100px;
+}
+.cText_right3 .OTP_complete:hover {
+}
+.cText_right3 .cancel{
+  border-radius: 5px;
+  padding: 7px 30px;
+  width:100px;
+  color: #7AABDF;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #7AABDF;
+  background:none;
+  margin-top:20px;
+  cursor: pointer;
+}
+
+/* 비활성화 */
+.cer_center .cer_level li img.account_off,
+.cer_center .cer_level li img.otp_on,
+.cer_center .cer_level li img.lv4_off,
+.cer_center .cer_level li img.lv5_on,
+.cer_center .center_bottom .cText_right li .complete,
+.cer_center .center_bottom .cText_right li .lv5_ing {
+  display: none;
+}
+#wrap{
+  display:block;
+}
+#app_wrap{
+  display:none;
+}
+@media all and (min-width:320px) and (max-width:1024px){
+  #app_wrap{
+    display:block;
+  }
+  #wrap{
+    display:none;
+  }
+}
+@media all and (min-width:1025px) and (max-width:1599px){
+  .center_bottom .cText_left3 strong{
+    font-size:12px;
+  }
+  .cer_center .center_bottom .cText_left3{
+    font-size:12px;
+    width:43%;
+  }
+  .cText_left3 li.app_text span{
+    margin-top:0;
+  }
+  .cText_right3 ul li{
+    font-size:12px;
+  }
+  .cer_center .center_bottom .cText_right3{
+    font-size:12px;
+    width:43%;
+  }
+  .cer_center .center_bottom .cText_right3 strong{
+    font-size:12px;
+  }
+  .cText_right3 .qr_code_img{
+    margin-left:30%;
+  }
+  .cText_right3 .qr_code_key{
+    margin-left:23%;
+  }
+  .cText_right3 #OTP_complete{
+    text-align: inherit;
+  }
+}

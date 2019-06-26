@@ -1,0 +1,253 @@
+.coninInfo_content {
+  overflow: hidden;
+  margin: 9% auto;
+}
+.coninInfo_content .coinInfo_area {
+    float: left;
+    width: 880px;
+    margin-top: 75px;
+}
+.coninInfo_content .coinInfo_area .text_area {
+  padding: 20px 25px;
+}
+.coinInfo_area .text_area div + div {
+  margin-top: 45px;
+}
+.coinInfo_area .text_area h4 {
+  font-size: 17px;
+  color: #7AABDF;
+}
+.coinInfo_area .text_area p {
+   margin: 20px 0;
+}
+.coinInfo_area .text_area small{
+  color:#aaa;
+}
+.coinInfo_area .text_area p a.bitcoin_mining,
+.coinInfo_area .text_area p a.bitcoin_twitter,
+.coinInfo_area .text_area p a.ethereum_mining{
+    margin-top: 15px;
+}
+.coinInfo_area .text_area p a {
+    font-size: 15px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border: 1px solid #7AABDF;
+    color: #7AABDF;
+    text-align: center;
+    margin-left: 10px;
+}
+.coinInfo_area .text_area p a + a {
+  margin-left: 10px;
+}
+.coinInfo_area p a:hover {
+  color: #0E141C;
+  background-color: #7AABDF;
+}
+.coninInfo_content .price_info {
+    float: right;
+    width: 350px;
+    padding: 25px 15px;
+    margin-top: 75px;
+}
+
+/* 코인시세 */
+.coninInfo_content .coin_money{
+    float: right;
+}
+.coninInfo_content .coin_money .price,
+.coninInfo_content .coin_money .prepare,
+.coninInfo_content .coin_money .updownarrow{
+    color: #017eff;
+}
+.coninInfo_content .coin_money_inner{
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/*비트코인캐시*/
+.coin_money_detail #detail_all .bitcoincash_table tbody tr td{
+    padding: 0 11px;
+}
+#ethuriumclassic_a_link{
+    width:120px;
+    font-size:13px;
+}
+
+/*이더리움클래식*/
+.coin_money_detail #detail_all .ethriumclassic_table tbody tr td{
+    padding: 0 8px;
+}
+.coin_money_inner ul.ethriumclassic_ul{
+    margin-left: 4px;
+}
+
+/*에이다*/
+.coin_money_detail #detail_all .ada_table tbody th{
+    padding: 5px 0;
+}
+.coin_money_detail #detail_all .ada_table tbody tr td{
+    padding: 0 8px;
+}
+
+/* 리플 */
+.coin_money_detail #detail_all .ripple_table tbody tr td {
+    font-size: 13px;
+    padding: 0 18px;
+}
+
+/*트위터*/
+.twitter_toggle{
+  padding-left:10px;
+  padding-bottom:5px;
+  text-align:left;
+  color:#7AABDF;
+  border-bottom:2px solid #7AABDF;
+  font-size:12px;
+  background:url(../img/arrow_off.png) no-repeat 98% 1px / 0 0; background-size:4%;
+  cursor:pointer;
+}
+.twitter_toggle img{
+  width:20px;
+  vertical-align: -5px;
+  margin-right:7px;
+}
+.twitter_ul li .on{
+  background:url(../img/arrow_on.png) no-repeat 98% 1px / 0 0; background-size:4%;
+}
+.twitter{
+  width: 350px;
+  float: right;
+  border-radius: 5px;
+  position: relative;
+}
+
+@media all and (min-width:320px) and (max-width:1024px){
+    #wrap .coninInfo_content{
+        margin: 100px auto;
+        font-size: 14px;
+    }
+    #wrap .coin_select,
+    #wrap .coinSelect_area,
+    #wrap .coinSelect_area .coinSelect,
+    #wrap .coninInfo_content .coinInfo_area
+    {
+        width: 100%;
+    }
+    #wrap .coinSelect_area .coinSelect{
+        font-size: 15px;
+    }
+    #wrap .box h3.title{
+        display: block;
+        font-size: 17px;
+        padding: 10px 15px;
+    }
+    #wrap .coinInfo_area .text_area h4{
+        font-size: 16px;
+    }
+    #wrap .coninInfo_content .coinInfo_area .text_area{
+        padding: 10px 15px;
+    }
+    #wrap .coinInfo_area .text_area p a{
+        width: 45%;
+        margin-bottom: 10px;
+        margin-left: 2.5%;
+    }
+    #wrap .coinInfo_area .text_area p a.bitcoin_mining,
+    #wrap .coinInfo_area .text_area p a.bitcoin_twitter,
+    #wrap .coinInfo_area .text_area p a.ethereum_mining{
+        margin-top: 0;
+    }
+    #wrap .coninInfo_content .coin_money{
+        width: 100%;
+        float: left;
+        margin: 20px 0;
+        padding: 20px 10px;
+    }
+    #wrap .coin_money_inner .img_area{
+        width: 20%;
+        height: auto;
+        max-width: 60px;
+        padding: 0;
+    }
+    #wrap .coninInfo_content .coin_money_inner{
+        padding-bottom: 10px;
+    }
+    #wrap .coin_money_inner ul{
+        transform: translateY(67%);
+        margin-left: 5px;
+    }
+    #wrap .coin_money_inner strong{
+        font-size: 18px;
+    }
+    .coin_money_inner ul li:nth-child(2),
+    .coin_money_inner ul li:nth-child(3){
+        display: none;
+    }
+
+    /*아이폰 5 */
+    @media all and (min-width:320px) and (max-width:357px){
+        #wrap table.left_thick_table tbody th{
+            width: 42%;
+            font-size: 13px;
+            padding: 5px;
+        }
+        #wrap #ethuriumclassic_a_link{
+            font-size: 12px;
+        }
+        #wrap .coin_money_detail #detail_all .coinInfo_table tbody tr td{
+            font-size: 12px;
+            padding: 0 5px;
+        }
+        #wrap .coin_money_detail #detail_all .ada_table tbody tr td{
+            padding: 0 2px;
+        }
+    }
+}
+@media all and (min-width:1025px) and (max-width:1599px){
+  .coin_select{
+    width:32%;
+  }
+  .coinSelect_area{
+    width:100%;
+  }
+  .coinSelect_area .coinSelect{
+    width:98%;
+  }
+  .coinInfo_area .text_area p{
+    font-size:12px;
+  }
+  .coninInfo_content .coinInfo_area{
+    width:63%;
+  }
+  .coin_money{
+    width:35%;
+  }
+  .coin_money_inner .img_area{
+    width:25%;
+  }
+  .coinInfo_area .text_area p a{
+    font-size:12px;
+    width:22%;
+  }
+  table.left_thick_table tbody th{
+    padding:5px 7px;
+  }
+  .coinInfo_area .text_area p a + a{
+    margin-top:10px;
+    font-size:12px;
+  }
+  #ethuriumclassic_a_link{
+    width:22%;
+    font-size:12px;
+  }
+  small{
+    font-size:11px;
+  }
+  .twitter{
+    width:35%;
+  }
+}

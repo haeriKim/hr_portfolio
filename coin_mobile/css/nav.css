@@ -1,0 +1,39 @@
+/* nav */
+#nav_wrap{
+    position: fixed;
+    float: left;
+    width: 100%;
+    background-color: #0e141c;
+    z-index: 7;
+    bottom: 0;
+    height: 60px;
+    border-top: 1px solid #1E2E43;
+    box-sizing: border-box;
+}
+
+/* 네비게이션 메뉴 영역 */
+.nav_list{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 8px;
+}
+.nav_list li{
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 13px;
+}
+.nav_list a{
+  color:#fff;
+  display: block;
+}
+.nav_list a img {
+  width: 25px;
+}
+.nav_list li p {
+  color: #666;
+}
+.nav_list li p.on {
+  color: #30AFB8;
+  font-weight: 600;
+}
